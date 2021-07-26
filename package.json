@@ -1,0 +1,56 @@
+{
+   "name": "enquirywitch",
+   "version": "0.0.1",
+   "description": "WIP",
+   "license": "MIT",
+   "repository": "https://github.com/videlais/snowman/",
+   "scripts": {
+      "test": "nyc mocha test/index.js",
+      "lint": "eslint lib/**/*.js test/index.js",
+      "lint:fix": "eslint lib/**/*.js test/*.js --fix",
+      "start": "node server.js",
+      "build": "node scripts/build-format.js",
+      "report-coverage": "nyc report --reporter=text-lcov > coverage.lcov"
+   },
+   "keywords": [
+      "twine",
+      "storyformat"
+   ],
+   "author": "Jazz Chatfield",
+   "dependencies": {
+      "@babel/core": "^7.14.3",
+      "@babel/polyfill": "^7.12.1",
+      "axios": "^0.21.1",
+      "jquery": "^3.6.0",
+      "jsdom": "^16.6.0",
+      "lz-string": "^1.4.4",
+      "marked": "^2.0.7",
+      "underscore": "^1.13.1",
+      "watch": "^0.16.0"
+   },
+   "devDependencies": {
+      "express": "^4.17.1",
+      "@babel/preset-env": "^7.14.4",
+      "@fintechstudios/eslint-plugin-chai-as-promised": "^3.1.0",
+      "babelify": "^10.0.0",
+      "browserify": "^17.0.0",
+      "chai": "^4.3.4",
+      "chai-as-promised": "^7.1.1",
+      "child-process-promise": "^2.2.1",
+      "clean-css": "^5.1.2",
+      "ejs": "^3.1.6",
+      "eslint": "^7.27.0",
+      "eslint-config-standard": "^16.0.3",
+      "eslint-plugin-import": "^2.23.4",
+      "eslint-plugin-jsdoc": "^35.1.2",
+      "eslint-plugin-mocha": "^9.0.0",
+      "eslint-plugin-node": "^11.1.0",
+      "eslint-plugin-promise": "^4.3.0",
+      "eslint-plugin-standard": "^5.0.0",
+      "mocha": "^8.4.0",
+      "nyc": "^15.1.0",
+      "sass": "^1.34.1",
+      "shelljs": "^0.8.4",
+      "uglifyify": "^5.0.2"
+   }
+}
