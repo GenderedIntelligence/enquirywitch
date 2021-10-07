@@ -18,7 +18,7 @@
    ],
    "author": "Jazz Chatfield",
    "dependencies": {
-      "@babel/core": "^7.14.3",
+      "@babel/core": "^7.15.8",
       "@babel/polyfill": "^7.12.1",
       "axios": "^0.21.1",
       "jquery": "^3.6.0",
