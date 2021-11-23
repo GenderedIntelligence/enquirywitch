@@ -461,7 +461,7 @@ describe("Passage", function () {
       const p = new Passage();
       expect(
         p.render(
-          '[[!Submit button->[SENDTO]jasmine[/sendto][urgent]->submit-jasmine]]'
+          '[[!Submit button->[SENDTO]jasmine[/sendto]->[urgent]->submit-jasmine]]'
         )
       ).to.equal(
         '<p><a href="javascript:void(0)" class="submit" data-passage="submit-jasmine" data-submit="sendTo:jasmine;urgent">Submit button</a></p>\n'
