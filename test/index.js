@@ -379,28 +379,28 @@ describe("Passage", function () {
 
     it('Should render QUESTION:Hello?/QUESTION into question class', function () {
       const p = new Passage();
-      expect(p.render('QUESTION:Hello?/QUESTION')).to.equal(
+      expect(p.render('[QUESTION]Hello?[/QUESTION]')).to.equal(
         '<p class="question">Hello?</p>'
       );
     });
 
     it('Should render a REDIRECT:[Google](google.com)/REDIRECT into a redirect button', function () {
       const p = new Passage();
-      expect(p.render('REDIRECT:[Google](google.com)/REDIRECT')).to.equal(
+      expect(p.render('[REDIRECT][Google](google.com)[/REDIRECT]')).to.equal(
         '<p class="redirect-container"><a href="google.com" class="redirect" target="_blank">Google<span class="redirect-arrow">↗</span></a></p>'
       );
     });
 
     it('Should render a text field', function () {
       const p = new Passage();
-      expect(p.render('FORMFIELD:[Name]{name}(text)/FORMFIELD')).to.equal(
+      expect(p.render('[FORMFIELD][Name]{name}(text)[/FORMFIELD]')).to.equal(
         '<div class="form-field"><p class="input-label"><strong>Name</strong></p><p class="input-label"><input class="input-text" required data-bind="name" /><span class="error error-hidden">Please enter text here</span></p></div>'
       );
     });
 
     it('Should render a number field', function () {
       const p = new Passage();
-      expect(p.render('FORMFIELD:[Age]{age}(number)/FORMFIELD')).to.equal(
+      expect(p.render('[FORMFIELD][Age]{age}(number)[/FORMFIELD]')).to.equal(
         '<div class="form-field"><p class="input-label"><strong>Age</strong></p><p class="input-label"><input type="number" required class="input-num" data-bind="age" /><span class="error error-hidden">Please enter a number here</span></p></div>'
       );
     });
@@ -408,7 +408,7 @@ describe("Passage", function () {
     it('Should render a longer text input', function () {
       const p = new Passage();
       expect(
-        p.render('FORMFIELD:[Message]{message_body}(text-long)/FORMFIELD')
+        p.render('[FORMFIELD][Message]{message_body}(text-long)[/FORMFIELD]')
       ).to.equal(
         '<div class="form-field-long"><p class="input-label"><strong>Message</strong></p><p class="input-label"><textarea class="input-text-long" required rows="4" cols="50" data-bind="message_body"></textarea><span class="error error-hidden">Please enter text here</span></p></div>'
       );
@@ -417,7 +417,7 @@ describe("Passage", function () {
     it('Should render a text input if the type is unknown', function () {
       const p = new Passage();
       expect(
-        p.render('FORMFIELD:[Message]{message_body}(dfdjf)/FORMFIELD')
+        p.render('[FORMFIELD][Message]{message_body}(dfdjf)[/FORMFIELD]')
       ).to.equal(
         '<div class="form-field"><p class="input-label"><strong>Message</strong></p><p class="input-label"><input class="input-text" required data-bind="message_body" /><span class="error error-hidden">Please enter text here</span></p></div>'
       );
@@ -426,7 +426,7 @@ describe("Passage", function () {
     it('Should render a text input if there is no type', function () {
       const p = new Passage();
       expect(
-        p.render('FORMFIELD:[Message]{message_body}/FORMFIELD')
+        p.render('[FORMFIELD][Message]{message_body}[/FORMFIELD]')
       ).to.equal(
         '<div class="form-field"><p class="input-label"><strong>Message</strong></p><p class="input-label"><input class="input-text" required data-bind="message_body" /><span class="error error-hidden">Please enter text here</span></p></div>'
       );
@@ -434,7 +434,7 @@ describe("Passage", function () {
 
     it('Should render a checkbox', function () {
       const p = new Passage();
-      expect(p.render('CHECKBOX:[Well?]{well_well_well}/CHECKBOX')).to.equal(
+      expect(p.render('[CHECKBOX][Well?]{well_well_well}[/CHECKBOX]')).to.equal(
         '<div class="form-field-checkbox"><p class="input-label"><label class="checkbox-container"><input type="checkbox" class="input-checkbox" data-bind="well_well_well" /><span/></label></p><p class="input-label">Well?</p></div>'
       );
     });
@@ -442,17 +442,26 @@ describe("Passage", function () {
     it('Should render a submit button with lazy params if override spam is true', function () {
       const p = new Passage();
       expect(
-        p.render('[[Submit button->!!jasmine!!->submit-jasmine]]')
+        p.render('[[!Submit button->jasmine->submit-jasmine]]')
       ).to.equal(
         '<p><a href="javascript:void(0)" class="submit" data-passage="submit-jasmine" data-submit="jasmine">Submit button</a></p>\n'
       );
     });
-
+    it('Should render a submit with CCs', function () {
+      const p = new Passage();
+      expect(
+        p.render(
+          '[[!Submit button->[SENDTO]jasmine[/sendto]->[cc]jazz[/cc]->submit-jasmine]]'
+        )
+      ).to.equal(
+        '<p><a href="javascript:void(0)" class="submit" data-passage="submit-jasmine" data-submit="sendTo:jasmine;cc:jazz">Submit button</a></p>\n'
+      );
+    });
     it('Should render a submit with urgent flag', function () {
       const p = new Passage();
       expect(
         p.render(
-          '[[Submit button->!!sendTo:jasmine;urgent!!->submit-jasmine]]'
+          '[[!Submit button->[SENDTO]jasmine[/sendto][urgent]->submit-jasmine]]'
         )
       ).to.equal(
         '<p><a href="javascript:void(0)" class="submit" data-passage="submit-jasmine" data-submit="sendTo:jasmine;urgent">Submit button</a></p>\n'
@@ -461,7 +470,7 @@ describe("Passage", function () {
 
     it('Should render a submit summary', function () {
       const p = new Passage();
-      expect(p.render('SUBMITSUMMARY')).to.equal(
+      expect(p.render('[SUMMARY]')).to.equal(
         '<h3 class="message-summary">MESSAGE SUMMARY</h3><table><tbody><tr><td><strong>NAME</strong></td><td>Jazz</td></tr><tr><td><strong>EMAIL ADDRESS</strong></td><td>jazz@jazz.com</td></tr><tr><td><strong>MESSAGE BODY</strong></td><td>Hello</td></tr></tbody></table>'
       );
     });
@@ -469,7 +478,7 @@ describe("Passage", function () {
     it('Should render a submit summary including upload', function () {
       formdata.push({ upload: { name: 'hello.jpg' } });
       const p = new Passage();
-      expect(p.render('SUBMITSUMMARY')).to.equal(
+      expect(p.render('[SUMMARY]')).to.equal(
         '<h3 class="message-summary">MESSAGE SUMMARY</h3><table><tbody><tr><td><strong>NAME</strong></td><td>Jazz</td></tr><tr><td><strong>EMAIL ADDRESS</strong></td><td>jazz@jazz.com</td></tr><tr><td><strong>MESSAGE BODY</strong></td><td>Hello</td></tr><tr><td><strong>UPLOAD</strong></td><td>hello.jpg</td></tr></tbody></table>'
       );
     });
@@ -477,7 +486,7 @@ describe("Passage", function () {
     it('Should render a submit summary including empty upload', function () {
       formdata[3].upload = '';
       const p = new Passage();
-      expect(p.render('SUBMITSUMMARY')).to.equal(
+      expect(p.render('[SUMMARY]')).to.equal(
         '<h3 class="message-summary">MESSAGE SUMMARY</h3><table><tbody><tr><td><strong>NAME</strong></td><td>Jazz</td></tr><tr><td><strong>EMAIL ADDRESS</strong></td><td>jazz@jazz.com</td></tr><tr><td><strong>MESSAGE BODY</strong></td><td>Hello</td></tr><tr><td><strong>UPLOAD</strong></td><td></td></tr></tbody></table>'
       );
     });
