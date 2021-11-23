@@ -1,10 +1,10 @@
 # EnquiryWitch: a "pseudo chatbot" for Twine
 
-EnquiryWitch is a Twine 2 story format designed to make a dynamic "contact wizard" (or witch!)* for organisations that have specific and varied remits, such as charities and community organisations.
+EnquiryWitch is a Twine 2 story format designed to make a dynamic "contact wizard" (or witch!)\* for organisations that have specific and varied remits, such as charities and community organisations.
 
 It is built on top of Snowman, a minimal Twine 2 story format designed for people who already know JavaScript and CSS originally created by Chris Klimas. Snowman is currently maintained by Dan Cox.
 
-note * (wizards are bureacratic and patriarchal, and witches are holistic and community-focused)
+note \* (wizards are bureacratic and patriarchal, and witches are holistic and community-focused)
 
 ## Get started
 
@@ -21,22 +21,43 @@ This is a WIP so not all of this is currently possible.
 ## Spellbook
 
 ### Spell to transmogrify a link into an email submit
+
 ```
-[[Submit->submit-email]]
+[[!Submit->SUBMIT PARAMS->submit-email]]
 ```
+
 Any internal link leading to a passage that contains 'submit' in its name is transformed into a 'submit' button, which sends a ping to the email server.
 
+#### Submit params
+
+Params are case insensitive, seperate params must be separated by a `->`
+
+Send to: `[SENDTO]glinda[/SENDTO]`
+
+CC: `[CC]wizardofoz[/CC]`
+
+Urgent: `[URGENT]`
+
+Full example:
+
+```
+[[!Submit->[SENDTO]glinda[/SENDTO]->[CC]wizardofoz[/CC]->[URGENT]->submit-email]]
+```
+
 ### Spell to transport between worlds
+
 ```
-REDIRECT:[Click to go anywhere](https://en.wikipedia.org/wiki/Special:Random)/REDIRECT
+[REDIRECT][Click to go anywhere](https://en.wikipedia.org/wiki/Special:Random)[/REDIRECT]
 ```
+
 Allows transportation to external pages, opens in a new window or tab. The portal looks more like a button than a link.
 
 ### Spell to ask the spirits a question
 
 ```
-QUESTION:Where can I find eye of newt?/QUESTION
+[QUESTION]Where can I find eye of newt?[/QUESTION]
 ```
+
 Tbh all this currently does is make it bold. But it will do more eventually. It is also used to keep a record of the spirit's correspondence.
 
 All internal links to other Twine passages are treated as ANSWERS to the last question asked.
@@ -44,15 +65,18 @@ All internal links to other Twine passages are treated as ANSWERS to the last qu
 ### Spell of gathering
 
 ```
-FORMFIELD:[Type of familiar]{familiar_type}(text)/FORMFIELD
+[FORMFIELD][Type of familiar]{familiar_type}(text)[/FORMFIELD]
 ```
+
 Formfields take 3 bits of information - the `[Label]`, the `{variable_name}` and the `(type)`. The available types are `text`, `text-long` and `number`.
+
 ```
 Are you a good witch or a bad witch?
 
-CHECKBOX:[Good witch]{good_witch}/CHECKBOX
-CHECKBOX:[Bad witch]{bad_witch}/CHECKBOX
+[CHECKBOX][Good witch]{good_witch}[/CHECKBOX]
+[CHECKBOX][Bad witch]{bad_witch}[/CHECKBOX]
 ```
+
 Checkboxes take a `[Label]` and a `{variable_name}`.
 
 ## Developing locally
