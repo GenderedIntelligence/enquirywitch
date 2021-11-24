@@ -476,7 +476,7 @@ describe("Passage", function () {
       ).to.equal(
         '<p><a href="javascript:void(0)" class="submit" data-passage="submit-jasmine" data-submit="sendTo:jasmine;type:Special enquiry">Submit button</a></p>\n'
       );
-    })
+    });
 
     it('Should render a submit summary', function () {
       const p = new Passage();
