@@ -467,6 +467,16 @@ describe("Passage", function () {
         '<p><a href="javascript:void(0)" class="submit" data-passage="submit-jasmine" data-submit="sendTo:jasmine;urgent">Submit button</a></p>\n'
       );
     });
+    it('Should render a submit with a type', function () {
+      const p = new Passage();
+      expect(
+        p.render(
+          '[[!Submit button->[SENDTO]jasmine[/sendto]->[type]Special enquiry[/type]->submit-jasmine]]'
+        )
+      ).to.equal(
+        '<p><a href="javascript:void(0)" class="submit" data-passage="submit-jasmine" data-submit="sendTo:jasmine;type:Special enquiry">Submit button</a></p>\n'
+      );
+    })
 
     it('Should render a submit summary', function () {
       const p = new Passage();
