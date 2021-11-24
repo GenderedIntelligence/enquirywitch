@@ -6,6 +6,10 @@ It is built on top of Snowman, a minimal Twine 2 story format designed for peopl
 
 note \* (wizards are bureacratic and patriarchal, and witches are holistic and community-focused)
 
+##
+
+[Link to the format to import to Twine](https://geeksforsocialchange.github.io/enquirywitch/dist/enquirywitch-0.0.1/format.js)
+
 ## Get started
 
 This is a WIP so not all of this is currently possible.
