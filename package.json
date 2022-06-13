@@ -24,7 +24,7 @@
       "jquery": "^3.6.0",
       "jsdom": "^16.6.0",
       "lz-string": "^1.4.4",
-      "marked": "^2.0.7",
+      "marked": "^4.0.17",
       "underscore": "^1.13.1",
       "watch": "^0.16.0"
    },
