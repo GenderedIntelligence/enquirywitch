@@ -85,6 +85,10 @@ Checkboxes take a `[Label]` and a `{variable_name}`.
 
 ## Developing locally
 
+Changes to the story content can be made in `./GI_Contact_Page.twee`.
+
+Changes to the styles can be made in `./lib/src/ew.scss`.
+
 1. install Twine locally using your package manager or from the [releases page](https://github.com/klembot/twinejs/releases)
 1. `git clone https://github.com/geeksforsocialchange/enquirywitch.git && cd enquirywitch`
 1. Run `npm install` to install dependancies
