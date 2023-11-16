@@ -92,10 +92,11 @@ Checkboxes take a `[Label]` and a `{variable_name}`.
 1. `npm start` will spin up a server for development
 1. start up the twine desktop app
 1. go to `library -> import -> choose file` select `GI_Contact_Page.twee` from the project root
-1. go to `Twin -> Story Formats -> Add` and add in the URL provided by the NPM server
+1. go to `Twine -> Story Formats -> Add` and add in the URL provided by the NPM server
 1. Test the format by `Build -> Test` it should open a browser window with the twine story
-1. The Twine app does not register changes to the story format file. To preview changes you must `Twin -> Story Formats -> Remove` then re-add it. 
+1. The Twine app does not register changes to the story format file. To preview changes you must `Twine -> Story Formats -> Remove` then re-add it. 
 1. To run unit tests, run `npm run test`.
+1. To export the story from the Twine app `Build -> Publish To File`
 
 EnquiryWitch is built on top of Snowman, and uses [jQuery](https://jquery.com/), [Underscore](https://underscorejs.org/) & [Marked](https://github.com/markedjs/marked).
 
