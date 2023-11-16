@@ -99,4 +99,4 @@ Checkboxes take a `[Label]` and a `{variable_name}`.
 
 EnquiryWitch is built on top of Snowman, and uses [jQuery](https://jquery.com/), [Underscore](https://underscorejs.org/) & [Marked](https://github.com/markedjs/marked).
 
-The [official Snowman documentation](https://videlais.github.io/snowman/2/) has more details about Snowman including multiple examples of how to do various tasks.
+The [official Snowman documentation](https://videlais.github.io/snowman/#/2/) has more details about Snowman including multiple examples of how to do various tasks.
