@@ -85,11 +85,16 @@ Checkboxes take a `[Label]` and a `{variable_name}`.
 
 ## Developing locally
 
+1. install Twine locally using your package manager or from the [releases page](https://github.com/klembot/twinejs/releases)
 1. `git clone https://github.com/geeksforsocialchange/enquirywitch.git && cd enquirywitch`
 1. Run `npm install` to install dependancies
-1. `npm start` will spin up a server for development
-1. Test the format by adding it into Twine by the localhost URL. Currently this needs deleting and re-adding with each rebuild.
 1. `npm run build` will create a Twine 2-ready story format under `dist/`.
+1. `npm start` will spin up a server for development
+1. start up the twine desktop app
+1. go to `library -> import -> choose file` select `GI_Contact_Page.twee` from the project root
+1. go to `Twin -> Story Formats -> Add` and add in the URL provided by the NPM server
+1. Test the format by `Build -> Test` it should open a browser window with the twine story
+1. The Twine app does not register changes to the story format file. To preview changes you must `Twin -> Story Formats -> Remove` then re-add it. 
 1. To run unit tests, run `npm run test`.
 
 EnquiryWitch is built on top of Snowman, and uses [jQuery](https://jquery.com/), [Underscore](https://underscorejs.org/) & [Marked](https://github.com/markedjs/marked).
