@@ -62,8 +62,8 @@ Please provide us with as much information as possible.
 [FORMFIELD]:[Website]{website}(text)[/FORMFIELD]
 [FORMFIELD]:[Timescale]{when}(text)[/FORMFIELD]
 [FORMFIELD]:[Message]{message_body}(text-long)[/FORMFIELD]
+[FORMFIELD]:[Image link]{image_link}(text)[/FORMFIELD]
 
-[UPLOAD]:Upload a file here:[/UPLOAD]
 
 [[Submit->!!sendTo:jazz!!->submit-casting-call]]
 
@@ -95,7 +95,7 @@ Which of these do you see the collaboration or partnership involving?
 
 [FORMFIELD]:[Message]{message_body}(text-long)[/FORMFIELD]
 
-[UPLOAD]:Upload a file here:[/UPLOAD]
+[FORMFIELD]:[Image link]{image_link}(text)[/FORMFIELD]
 
 [[Submit->!!sendTo:jazz!!->submit-collaboration]]
 
@@ -516,7 +516,7 @@ Please note that we cannot promote or circulate individual fundraisers (e.g. for
 [FORMFIELD]:[Website]{website}(text)[/FORMFIELD]
 [FORMFIELD]:[Message]{message_body}(text-long)[/FORMFIELD]
 
-[UPLOAD]:Upload an image here:[/UPLOAD]
+[FORMFIELD]:[Image link]{image_link}(text)[/FORMFIELD]
 
 [[Submit->!!sendTo:jazz!!->submit-promotion-request]]
 
