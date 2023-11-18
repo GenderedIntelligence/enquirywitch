@@ -63,7 +63,7 @@ Please provide us with as much information as possible.
 [FORMFIELD]:[Timescale]{when}(text)[/FORMFIELD]
 [FORMFIELD]:[Message]{message_body}(text-long)[/FORMFIELD]
 
-UPLOAD:Upload a file here:/UPLOAD
+[UPLOAD]:Upload a file here:[/UPLOAD]
 
 [[Submit->!!sendTo:jazz!!->submit-casting-call]]
 
@@ -87,15 +87,15 @@ Please fill in the form below and a member of our team will get back to you as s
 
 Which of these do you see the collaboration or partnership involving?
 
-CHECKBOX:[Fundraising for GI]{fundraising_for_gi}/CHECKBOX
-CHECKBOX:[Volunteering with GI]{volunteering_with_gi}/CHECKBOX
-CHECKBOX:[Online event]{online_event}/CHECKBOX
-CHECKBOX:[IRL event]{irl_event}/CHECKBOX
-CHECKBOX:[Artistic or performance]{artistic_or_performance}/CHECKBOX
+[CHECKBOX]:[Fundraising for GI]{fundraising_for_gi}[/CHECKBOX]
+[CHECKBOX]:[Volunteering with GI]{volunteering_with_gi}[/CHECKBOX]
+[CHECKBOX]:[Online event]{online_event}[/CHECKBOX]
+[CHECKBOX]:[IRL event]{irl_event}[/CHECKBOX]
+[CHECKBOX]:[Artistic or performance]{artistic_or_performance}[/CHECKBOX]
 
 [FORMFIELD]:[Message]{message_body}(text-long)[/FORMFIELD]
 
-UPLOAD:Upload a file here:/UPLOAD
+[UPLOAD]:Upload a file here:[/UPLOAD]
 
 [[Submit->!!sendTo:jazz!!->submit-collaboration]]
 
@@ -516,7 +516,7 @@ Please note that we cannot promote or circulate individual fundraisers (e.g. for
 [FORMFIELD]:[Website]{website}(text)[/FORMFIELD]
 [FORMFIELD]:[Message]{message_body}(text-long)[/FORMFIELD]
 
-UPLOAD:Upload an image here:/UPLOAD
+[UPLOAD]:Upload an image here:[/UPLOAD]
 
 [[Submit->!!sendTo:jazz!!->submit-promotion-request]]
 
@@ -891,10 +891,10 @@ If you want to get in touch with us about attending a youth group or other suppo
 
 Are you interested in any of the following: (optional)
 
-CHECKBOX:[Group sessions]{youth_group_sessions}/CHECKBOX
-CHECKBOX:[Residential trips e.g. camping]{youth_group_sessions}/CHECKBOX
-CHECKBOX:[Mentoring (if in education)]{youth_group_sessions}/CHECKBOX
-CHECKBOX:[Having a chat with a member of our team]{youth_group_sessions}/CHECKBOX
+[CHECKBOX]:[Group sessions]{youth_group_sessions}[/CHECKBOX]
+[CHECKBOX]:[Residential trips e.g. camping]{youth_group_sessions}[/CHECKBOX]
+[CHECKBOX]:[Mentoring (if in education)]{youth_group_sessions}[/CHECKBOX]
+[CHECKBOX]:[Having a chat with a member of our team]{youth_group_sessions}[/CHECKBOX]
 
 [FORMFIELD]:[Message]{message_body}(text-long)[/FORMFIELD]
 
@@ -943,10 +943,10 @@ If you want to get in touch with us about attending a youth group or other suppo
 
 Are you interested in any of the following: (optional)
 
-CHECKBOX:[Group sessions]{youth_group_sessions}/CHECKBOX
-CHECKBOX:[Residential trips e.g. camping]{residential_group}/CHECKBOX
-CHECKBOX:[Mentoring (if in education)]{mentoring}/CHECKBOX
-CHECKBOX:[Having a chat with a member of our team]{chat_with_team}/CHECKBOX
+[CHECKBOX]:[Group sessions]{youth_group_sessions}[/CHECKBOX]
+[CHECKBOX]:[Residential trips e.g. camping]{residential_group}[/CHECKBOX]
+[CHECKBOX]:[Mentoring (if in education)]{mentoring}[/CHECKBOX]
+[CHECKBOX]:[Having a chat with a member of our team]{chat_with_team}[/CHECKBOX]
 
 [FORMFIELD]:[Message]{message_body}(text-long)[/FORMFIELD]
 
