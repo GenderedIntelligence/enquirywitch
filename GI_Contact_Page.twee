@@ -13,9 +13,11 @@ GI Contact Page
 
 
 :: advice-team {"position":"1765.3333333333333,1856.3333333333335","size":"100,100"}
-If your message is relating to one of the other areas of GI (training, support, media, youth groups) we'll get to it quicker if you select the options from the previous menu.
+<div class="contain">
 
+If your message is relating to one of the other areas of GI (training, support, media, youth groups) we'll get to it quicker if you select the options from the previous menu.
 Otherwise, please fill out this form and we will get your message to the right place.
+</div>
 
 [FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
 [FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
@@ -25,8 +27,9 @@ Otherwise, please fill out this form and we will get your message to the right p
 
 
 :: advice-trans-friendly {"position":"2393.3333333333335,1469","size":"100,100"}
-We have a massive list of resources that can be accessed by downloading the pdf on our resources page:
+<div class="contain">
 
+We have a massive list of resources that can be accessed by downloading the pdf on our resources page:
 [REDIRECT]:[Resources](https://genderedintelligence.co.uk/professionals/resources.html)[/REDIRECT]
 
 If you need more feedback, we offer consultancy, which is charged at £90 an hour. If it might be mutually beneficial to us, we may be able to have a chat with you free of charge but this depends on our capacity.
@@ -34,6 +37,7 @@ If you need more feedback, we offer consultancy, which is charged at £90 an hou
 We also offer training for schools, workplaces and families.
 
 If you would like to contact us about either of these, please select the option below and get in touch with us, or send us an email if your request falls outside of that remit.
+</div>
 
 [[Gender monitoring forms->gender-monitoring]]
 [[Consultancy->consultancy]]
@@ -42,21 +46,23 @@ If you would like to contact us about either of these, please select the option 
 
 
 :: casting-call {"position":"3599,524","size":"100,100"}
+<div class="contain">
+
 We can circulate casting calls for trans actors.
-
 Please note the role counts as unpaid if only expenses are covered.
-
-[QUESTION]:Is the casting call for a paid role?[/QUESTION]
+</div>
+[QUESTION]Is the casting call for a paid role?[/QUESTION]
 
 [[Paid opportunity->casting-call-paid]]
 [[Unpaid opportunity->casting-call-unpaid]]
 
 
 :: casting-call-paid {"position":"3527,691","size":"100,100"}
+<div class="contain">
+
 Please fill in the form below and we will circulate your opportunity with our acting network if appropriate.
-
 Please provide us with as much information as possible.
-
+</div>
 [FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
 [FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
 [FORMFIELD]:[Website]{website}(text)[/FORMFIELD]
@@ -69,23 +75,28 @@ Please provide us with as much information as possible.
 
 
 :: casting-call-unpaid {"position":"3672,675","size":"100,100"}
-Unfortunately we do not circulate unpaid casting calls to our networks. Feel free to get back in touch with us if you decide to budget for this role or if you have any further paid opportunities available for trans actors. 
+<div class="contain">
 
+Unfortunately we do not circulate unpaid casting calls to our networks. Feel free to get back in touch with us if you decide to budget for this role or if you have any further paid opportunities available for trans actors. 
+</div>
 
 :: collaboration {"position":"3491,893","size":"100,100"}
-Please fill in the form below and a member of our team will get back to you as soon as possible.
+<div class="contain">
 
+Please fill in the form below and a member of our team will get back to you as soon as possible.
+</div>
 [FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
 [FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
-
 [FORMFIELD]:[Timescale]{when}(text)[/FORMFIELD]
-
 [FORMFIELD]:[Twitter]{twitter}(text)[/FORMFIELD]
 [FORMFIELD]:[Facebook]{facebook}(text)[/FORMFIELD]
 [FORMFIELD]:[Instagram]{instagram}(text)[/FORMFIELD]
 [FORMFIELD]:[Website]{website}(text)[/FORMFIELD]
 
+<div class="contain">
+
 Which of these do you see the collaboration or partnership involving?
+</div>
 
 [CHECKBOX]:[Fundraising for GI]{fundraising_for_gi}[/CHECKBOX]
 [CHECKBOX]:[Volunteering with GI]{volunteering_with_gi}[/CHECKBOX]
@@ -101,7 +112,7 @@ Which of these do you see the collaboration or partnership involving?
 
 
 :: collaborations-and-media {"position":"3374,266","size":"100,100"}
-[QUESTION]:Which category does your enquiry fall under?[/QUESTION]
+[QUESTION]Which category does your enquiry fall under?[/QUESTION]
 
 [[Invitation->invitation]]
 [[Collaborations and partnerships->collaborations-partnerships]]
@@ -110,20 +121,22 @@ Which of these do you see the collaboration or partnership involving?
 
 
 :: collaborations-partnerships {"position":"3399,683","size":"100,100"}
-[QUESTION]:Are you a community organisation looking to partner with other community organisations?[/QUESTION]
+[QUESTION]Are you a community organisation looking to partner with other community organisations?[/QUESTION]
 
-[QUESTION]:Or is this a different type of collaboration request?[/QUESTION]
+[QUESTION]Or is this a different type of collaboration request?[/QUESTION]
 
 [[Community organisation partnership->partnerships]]
 [[Other collaboration->collaboration]]
 
 
 :: consultancy {"position":"2152,909","size":"100,100"}
-Read our information on consultancy here before making an enquiry:
+<div class="contain">
 
+Read our information on consultancy here before making an enquiry:
 [REDIRECT]:[Consultancy](https://genderedintelligence.co.uk/professionals/policy.html)[/REDIRECT]
 
 Please fill in the contact form below and a member of our team will get back to you as soon as possible.
+</div>
 
 [FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
 [FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
@@ -133,8 +146,10 @@ Please fill in the contact form below and a member of our team will get back to 
 
 
 :: crisis-adult {"position":"191,1054","size":"100,100"}
-Please fill in the form below and we will respond as soon as we can.
+<div class="contain">
 
+Please fill in the form below and we will respond as soon as we can.
+</div>
 [FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
 [FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
 [FORMFIELD]:[Message]{message_body}(text-long)[/FORMFIELD]
@@ -143,8 +158,10 @@ Please fill in the form below and we will respond as soon as we can.
 
 
 :: crisis-youth {"position":"32,1059","size":"100,100"}
-Please fill in the form below and we will respond as soon as we can.
+<div class="contain">
 
+Please fill in the form below and we will respond as soon as we can.
+</div>
 [FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
 [FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
 [FORMFIELD]:[Message]{message_body}(text-long)[/FORMFIELD]
@@ -153,24 +170,30 @@ Please fill in the form below and we will respond as soon as we can.
 
 
 :: donation {"position":"1092,473","size":"100,100"}
-Donations help fund our trans work youth, volunteering schemes, campaigning work and help us improve the lives of trans people.
+<div class="contain">
 
-[QUESTION]:How do you want to donate to us?[/QUESTION]
+Donations help fund our trans work youth, volunteering schemes, campaigning work and help us improve the lives of trans people.
+</div>
+[QUESTION]How do you want to donate to us?[/QUESTION]
 
 [[Money donation->donation-money]]
 [[Item donation->donation-item]]
 
 
 :: donation-item {"position":"1275,634","size":"100,100"}
-Thanks for offering to donate to us! Is/are the item(s) for our trans youth specifically or for all ages?
+<div class="contain">
 
+Thanks for offering to donate to us! Is/are the item(s) for our trans youth specifically or for all ages?
+</div>
 [[Donate items for trans youth->donation-item-youth]]
 [[Donate items for any age->donation-item-adult]]
 
 
 :: donation-item-adult {"position":"1335,781","size":"100,100"}
-Please fill in the form below and one of us will get back to you as soon as possible.
+<div class="contain">
 
+Please fill in the form below and one of us will get back to you as soon as possible.
+</div>
 [FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
 [FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
 [FORMFIELD]:[What is it you want to donate?]{fundraiser_details}(text-long)[/FORMFIELD]
@@ -180,8 +203,10 @@ Please fill in the form below and one of us will get back to you as soon as poss
 
 
 :: donation-item-youth {"position":"1209,782.3333333333334","size":"100,100"}
-Please fill in the form below and one of us will get back to you as soon as possible.
+<div class="contain">
 
+Please fill in the form below and one of us will get back to you as soon as possible.
+</div>
 [FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
 [FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
 [FORMFIELD]:[What is it you want to donate?]{fundraiser_details}(text-long)[/FORMFIELD]
@@ -191,8 +216,10 @@ Please fill in the form below and one of us will get back to you as soon as poss
 
 
 :: donation-money {"position":"1092,693","size":"100,100"}
-You can find all about how to donate on our donation page here:
+<div class="contain">
 
+You can find all about how to donate on our donation page here:
+</div>
 [REDIRECT]:[Donate to GI](https://genderedintelligence.co.uk/support-us/donate.html)[/REDIRECT]
 
 Do you still have a question about donating?
@@ -201,8 +228,10 @@ Do you still have a question about donating?
 
 
 :: donation-money-question {"position":"1090,841","size":"100,100"}
-Please fill in the form below and one of us will get back to you as soon as possible.
+<div class="contain">
 
+Please fill in the form below and one of us will get back to you as soon as possible.
+</div>
 [FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
 [FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
 [FORMFIELD]:[Message]{message_body}(text-long)[/FORMFIELD]
@@ -211,25 +240,29 @@ Please fill in the form below and one of us will get back to you as soon as poss
 
 
 :: family-support {"position":"584,506","size":"100,100"}
-We will give top priority to urgent requests, e.g. if there are safeguarding issues, there are risks with the mental health of family members.
+<div class="contain">
 
+We will give top priority to urgent requests, e.g. if there are safeguarding issues, there are risks with the mental health of family members.
 However please note we operate regular working hours and we do not have the capacity to respond to emergencies.
 
 If your request isn't urgent we will still prioritise getting back to you as soon as possible.
+</div>
 
-[QUESTION]:Is your enquiry urgent?[/QUESTION]
+[QUESTION]Is your enquiry urgent?[/QUESTION]
 [[Yes, it is urgent->family-support-urgent]]
 [[No, it isn't urgent->family-support-general]]
 
 
 :: family-support-general {"position":"742,603","size":"100,100"}
-We offer services for families in need of some support, such as peer groups for youths and parent/family workshops for adults.
+<div class="contain">
 
+We offer services for families in need of some support, such as peer groups for youths and parent/family workshops for adults.
 We also have a list of resources for families here:
 
 [REDIRECT]:[Resources for families](https://genderedintelligence.co.uk/families/resources.html)[/REDIRECT]
 
 Please fill in the form below and a member of our team will get back to you as soon as possible.
+</div>
 
 [FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
 [FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
@@ -239,15 +272,16 @@ Please fill in the form below and a member of our team will get back to you as s
 
 
 :: family-support-urgent {"position":"512,640","size":"100,100"}
-If you need to speak to someone immediately, please call
+<div class="contain">
 
-Childline: 0800 11 11 or Samaritans: 116 123  
+If you need to speak to someone immediately, please call Childline: 0800 11 11 or Samaritans: 116 123  
 
 Both call lines offer FREE immediate, 24 hour, confidential support and listening from trained workers.
 
 In an emergency, call 999 or make your way to the nearest Accident and Emergency department.
 
 For other immediate support, check out this Support Hub:
+</div>
 
 [REDIRECT]:[Support hub](http://sabahchoudrey.com/supporthub/)[/REDIRECT]
 
@@ -263,18 +297,22 @@ However, we will respond as quickly as we can to urgent support requests. If you
 
 
 :: fundraising {"position":"1429,650","size":"100,100"}
-Thanks for fundraising for us!
+<div class="contain">
 
+Thanks for fundraising for us!
 Has the fundraising already occured or it is planned?
+</div>
 
 [[Upcoming fundraiser->fundraising-upcoming]]
 [[Already fundraised->fundraising-completed]]
 
 
 :: fundraising-completed {"position":"1557,810","size":"100,100"}
-We are thrilled at your fundraising efforts!
+<div class="contain">
 
+We are thrilled at your fundraising efforts!
 Please fill in the contact form below and a member of our team will get back to you as soon as possible.
+</div>
 
 [FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
 [FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
@@ -285,9 +323,11 @@ Please fill in the contact form below and a member of our team will get back to 
 
 
 :: fundraising-upcoming {"position":"1435,907","size":"100,100"}
-We can help support your fundraising efforts as much as possible, including promoting on social media if appropriate.
+<div class="contain">
 
+We can help support your fundraising efforts as much as possible, including promoting on social media if appropriate.
 Please fill in the contact form below and a member of our team will get back to you as soon as possible.
+</div>
 
 [FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
 [FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
@@ -298,50 +338,58 @@ Please fill in the contact form below and a member of our team will get back to 
 
 
 :: gender-monitoring {"position":"2348,1052","size":"100,100"}
-We have a document on how to capture gender in monitoring forms that can be viewed at the link below:
+<div class="contain">
 
+We have a document on how to capture gender in monitoring forms that can be viewed at the link below:
 [REDIRECT]:[Monitoring and Data Capture: Gender-Related Options](https://drive.google.com/file/d/19HvNTaB0civyimro_JS5ot5_nE9M8eHv/view)[/REDIRECT]
 
 If you have more questions, get in touch with our consultancy team below:
+</div>
 
 [[Consultancy->consultancy]] 
 
 
 :: help-gi {"position":"1019,281","size":"100,100"}
-[QUESTION]:How do you want to help us?[/QUESTION]
+[QUESTION]How do you want to help us?[/QUESTION]
 [[Volunteer with us->volunteer]]
 [[Donate to us->donation]]
 [[Fundraise for us->fundraising]]
 
 
 :: individual-support {"position":"282,533","size":"100,100"}
-[QUESTION]: Is the support for yourself or for someone else?[/QUESTION]
+[QUESTION] Is the support for yourself or for someone else?[/QUESTION]
 [[For myself->support-myself]]
 [[For someone else->support-someone-else]]
 
 
 :: info-name {"position":"1264.6666666666667,1637.6666666666667","size":"100,100"}
-Here is some information on changing your name from our website:
+<div class="contain">
 
+Here is some information on changing your name from our website:
+</div>
 [REDIRECT]:[Changing your name](https://genderedintelligence.co.uk/projects/kip/transitioning/name.html)[/REDIRECT]
 
 
 :: info-therapy {"position":"991.9999999999999,1559.6666666666667","size":"100,100"}
-We have a directory of therapists and counsellors who have undergone training with us and wish to offer their services to trans people (and their families and partners).
+<div class="contain">
 
+We have a directory of therapists and counsellors who have undergone training with us and wish to offer their services to trans people (and their families and partners).
 [REDIRECT]:[Therapists and Counsellors Directory](https://genderedintelligence.co.uk/professionals/therapists-and-counsellors/directory.html)[/REDIRECT]
+</div>
 
 
 :: info-youth {"position":"1133,1614","size":"100,100"}
-We have an entire hub of information designed with trans youth (and everyone else too!) in mind.
+<div class="contain">
 
+We have an entire hub of information designed with trans youth (and everyone else too!) in mind.
 Check it out for answers to many of your questions:
+</div>
 
 [REDIRECT]:[Resources for young people](https://genderedintelligence.co.uk/trans-youth/resources.html)[/REDIRECT]
 
 
 :: information-and-advice {"position":"1790.3333333333333,985","size":"100,100"}
-[QUESTION]:What type of information or advice are you looking for?[/QUESTION]
+[QUESTION]What type of information or advice are you looking for?[/QUESTION]
 
 [[Information and advice for trans and non-binary people->information-trans]]
 [[Information on GI services->information-services]]
@@ -351,7 +399,7 @@ Check it out for answers to many of your questions:
 
 
 :: information-and-professional {"position":"2289,294","size":"100,100"}
-[QUESTION]:Which of these options best fits your request?[/QUESTION]
+[QUESTION]Which of these options best fits your request?[/QUESTION]
 
 [[Information or advice->information-and-advice]]
 [[Request for research help or participation->research-request]]
@@ -361,8 +409,9 @@ Check it out for answers to many of your questions:
 
 
 :: information-schools-workplaces {"position":"1923.3333333333335,1455.3333333333333","size":"100,100"}
-We have resources for workplaces elsewhere on our website.
+<div class="contain">
 
+We have resources for workplaces elsewhere on our website.
 [REDIRECT]:[Download our Trans Inclusion Resource List for Professionals](https://genderedintelligence.co.uk/static/pdfs/Trans-Resource-List-Issue-17.pdf)[/REDIRECT]
 
 [REDIRECT]:[Check out the rest of our resources for professionals](https://genderedintelligence.co.uk/professionals/resources.html)[/REDIRECT]
@@ -370,16 +419,18 @@ We have resources for workplaces elsewhere on our website.
 [REDIRECT]:[How to write gender monitoring forms](https://drive.google.com/file/d/19HvNTaB0civyimro_JS5ot5_nE9M8eHv/view?usp=sharing)[/REDIRECT]
 
 If you had a different kind of question, choose one of the options below.
+</div>
 
-[QUESTION]:Are you...?[/QUESTION]
+[QUESTION]Are you...?[/QUESTION]
 
 [[A school looking for direct support for pupils->support-education]]
 [[A workplace looking for training for staff->training]]
 
 
 :: information-services {"position":"1730.6666666666667,1308","size":"100,100"}
-Services we provide:
+<div class="contain">
 
+Services we provide:
 * Youth groups
 * Training
 * Consultancy
@@ -387,8 +438,9 @@ Services we provide:
 * Families
 
 Please note we can only provide support for youth and families in the UK.
+</div>
 
-[QUESTION]:Would you like to contact us about any of our services?[/QUESTION]
+[QUESTION]Would you like to contact us about any of our services?[/QUESTION]
 
 [[Youth groups->youth-group-info]]
 [[Training->training]]
@@ -398,7 +450,7 @@ Please note we can only provide support for youth and families in the UK.
 
 
 :: information-trans {"position":"1400.3333333333333,1303","size":"100,100"}
-[QUESTION]:Are you looking for information on one of the following?[/QUESTION]
+[QUESTION]Are you looking for information on one of the following?[/QUESTION]
 
 [[General youth information->info-youth]]
 [[Changing your name->info-name]]
@@ -407,7 +459,7 @@ Please note we can only provide support for youth and families in the UK.
 
 
 :: invitation {"position":"2764,403","size":"100,100"}
-[QUESTION]:Which of these best fits your request?[/QUESTION]
+[QUESTION]Which of these best fits your request?[/QUESTION]
 
 [[Invitation to speak at a school or university->speaker-school]]
 [[Invitation to speak at a conference or event->speaker-event]]
@@ -417,8 +469,10 @@ Please note we can only provide support for youth and families in the UK.
 
 
 :: media-interview {"position":"3035,681","size":"100,100"}
-Please fill in the form below and we will get back to you as soon as possible.
+<div class="contain">
 
+Please fill in the form below and we will get back to you as soon as possible.
+</div>
 [FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
 [FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
 [FORMFIELD]:[Timescale for interview]{timescale}(text)[/FORMFIELD]
@@ -429,7 +483,7 @@ Please fill in the form below and we will get back to you as soon as possible.
 
 
 :: other {"position":"4109,327","size":"100,100"}
-[QUESTION]:Is your message related to one of these topics?[/QUESTION]
+[QUESTION]Is your message related to one of these topics?[/QUESTION]
 
 [[Request funding from us->other-funding]]
 [[IT (report a bug)->other-it]]
@@ -438,14 +492,18 @@ Please fill in the form below and we will get back to you as soon as possible.
 
 
 :: other-funding {"position":"3944,536","size":"100,100"}
-Unfortunately we do not give out funding to individuals or projects.
+<div class="contain">
 
+Unfortunately we do not give out funding to individuals or projects.
 We sadly cannot promote individual surgery fundraisers, as we get so many requests for this. If you are looking to fundraise for surgery, we recommend taking a look at the #TransCrowdfund hashtag on Twitter.
 
+</div>
 
 :: other-it {"position":"4091,538.6666666666666","size":"100,100"}
-Use the form below to ask a question about IT or let us know that something on our website is broken. We will get back to you as soon as possible.
+<div class="contain">
 
+Use the form below to ask a question about IT or let us know that something on our website is broken. We will get back to you as soon as possible.
+</div>
 [FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
 [FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
 [FORMFIELD]:[Message]{message_body}(text-long)[/FORMFIELD]
@@ -454,9 +512,11 @@ Use the form below to ask a question about IT or let us know that something on o
 
 
 :: other-message {"position":"4374,477","size":"100,100"}
-If your message is relating to one of the other areas of GI (training, support, media, youth groups) we'll get to it quicker if you select the options from the previous menu.
+<div class="contain">
 
+If your message is relating to one of the other areas of GI (training, support, media, youth groups) we'll get to it quicker if you select the options from the previous menu.
 Otherwise, please fill out this form and we will get your message to the right place.
+</div>
 
 [FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
 [FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
@@ -467,8 +527,10 @@ Otherwise, please fill out this form and we will get your message to the right p
 
 
 :: other-recruitment {"position":"4254,541","size":"100,100"}
-Please only get in touch with us if your recruitment search is something that might be of specific interest to our networks.
+<div class="contain">
 
+Please only get in touch with us if your recruitment search is something that might be of specific interest to our networks.
+</div>
 [FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
 [FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
 [FORMFIELD]:[Message]{message_body}(text-long)[/FORMFIELD]
@@ -477,8 +539,10 @@ Please only get in touch with us if your recruitment search is something that mi
 
 
 :: participate-event {"position":"2891,701","size":"100,100"}
-If you fill in the form below we will send your event to our public engagement team. Sadly we cannot participate in every event we are invited to, so if you don't hear back from us feel free to send a follow-up but we may be at capacity.
+<div class="contain">
 
+If you fill in the form below we will send your event to our public engagement team. Sadly we cannot participate in every event we are invited to, so if you don't hear back from us feel free to send a follow-up but we may be at capacity.
+</div>
 [FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
 [FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
 [FORMFIELD]:[When is the event]{timescale}(text)[/FORMFIELD]
@@ -489,8 +553,10 @@ If you fill in the form below we will send your event to our public engagement t
 
 
 :: partnerships {"position":"3319,904","size":"100,100"}
-Please fill in this form and we will get back to you.
+<div class="contain">
 
+Please fill in this form and we will get back to you.
+</div>
 [FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
 [FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
 [FORMFIELD]:[Org name]{institution_name}(text)[/FORMFIELD]
@@ -501,11 +567,12 @@ Please fill in this form and we will get back to you.
 
 
 :: promotion-request {"position":"3239,623","size":"100,100"}
+<div class="contain">
+
 If you want us to share something on or social media or promote it to our networks, please fill in the form below.
-
 We will only promote and/or circulate things that are of benefit to our networks.
-
 Please note that we cannot promote or circulate individual fundraisers (e.g. for surgery).
+</div>
 
 [FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
 [FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
@@ -522,8 +589,9 @@ Please note that we cannot promote or circulate individual fundraisers (e.g. for
 
 
 :: research-request {"position":"2426,601.6666666666666","size":"100,100"}
-We no longer participate in research requests where we are not specifically collaborating with the researcher.
+<div class="contain">
 
+We no longer participate in research requests where we are not specifically collaborating with the researcher.
 We will only circulate research requests that follow our policy below.
 
 We have decided to take this step because, as a small charity, we do not have the capacity to look into the content of individual research projects to make sure they align with our values and approach to research before sharing them. We feel that sharing a research request might be assumed to be an endorsement on our part. In addition, we receive an incredibly large number of requests for this kind of support and simply cannot work with all researchers.
@@ -543,15 +611,18 @@ We ask that all proposed projects:
 ### Consultancy charges
 
 Normally, offering support by email or phone would be charged at our minimum fee of £45/half hour. However, if something is going to take less than 10-15 minutes, we could look at providing that for free if it could help steer a piece of mutually beneficial work. We offer much wider-ranging consultancy and training, including trans awareness training.
+</div>
 
-[QUESTION]:Would you like to discuss consultancy, training or research with a member of our team?[/QUESTION]
+[QUESTION]Would you like to discuss consultancy, training or research with a member of our team?[/QUESTION]
 
 [[Yes->research-request-contact]]
 
 
 :: research-request-contact {"position":"2437,775","size":"100,100"}
-Please get in touch with us on the form below and we will get back to you if we can help.
+<div class="contain">
 
+Please get in touch with us on the form below and we will get back to you if we can help.
+</div>
 [FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
 [FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
 [FORMFIELD]:[Message]{message_body}(text-long)[/FORMFIELD]
@@ -560,8 +631,10 @@ Please get in touch with us on the form below and we will get back to you if we 
 
 
 :: speaker-event {"position":"2659,854","size":"100,100"}
-Please fill in the form below and we will be in contact with you.
+<div class="contain">
 
+Please fill in the form below and we will be in contact with you.
+</div>
 [FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
 [FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
 [FORMFIELD]:[When]{timescale}(text)[/FORMFIELD]
@@ -572,15 +645,17 @@ Please fill in the form below and we will be in contact with you.
 
 
 :: speaker-other {"position":"2741,698","size":"100,100"}
-[QUESTION]:Is this a paid opportunity?[/QUESTION]
+[QUESTION]Is this a paid opportunity?[/QUESTION]
 
 [[Paid->speaker-event]]
 [[Unpaid->unpaid-speaker]]
 
 
 :: speaker-school {"position":"2607,634","size":"100,100"}
-Please fill in the form below at booking a speaker or a school assembly for your school or university, and a member of the team will get back to you as soon as possible.
+<div class="contain">
 
+Please fill in the form below at booking a speaker or a school assembly for your school or university, and a member of the team will get back to you as soon as possible.
+</div>
 [FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
 [FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
 [FORMFIELD]:[When]{timescale}(text)[/FORMFIELD]
@@ -605,63 +680,83 @@ Thanks for contacting Gendered Intelligence. We just have a few questions so we 
 
 
 :: submit-advice-team {"position":"2212,1944.6666666666667","size":"100,100"}
-Thank you, your message has been sent to us and we will read it as soon as possible.
+<div class="contain">
 
+Thank you, your message has been sent to us and we will read it as soon as possible.
+</div>
 SUBMITSUMMARY
 
 
 :: submit-casting-call {"position":"3634,825","size":"100,100"}
-Thanks, we will get in touch if we have any further questions.
+<div class="contain">
 
+Thanks, we will get in touch if we have any further questions.
+</div>
 SUBMITSUMMARY
 
 
 :: submit-collaboration {"position":"3519,1053","size":"100,100"}
-Thanks, we will get back to you as soon as possible.
+<div class="contain">
 
+Thanks, we will get back to you as soon as possible.
+</div>
 SUBMITSUMMARY
 
 
 :: submit-consultancy {"position":"1982,860","size":"100,100"}
-Thanks for getting in touch, a member of the team will get back to you as soon as possible.
+<div class="contain">
 
+Thanks for getting in touch, a member of the team will get back to you as soon as possible.
+</div>
 SUBMITSUMMARY
 
 
 :: submit-crisis-adult {"position":"173,1241","size":"100,100"}
-Thank you, a member of the team will get back to you as soon as possible.
+<div class="contain">
 
+Thank you, a member of the team will get back to you as soon as possible.
+</div>
 SUBMITSUMMARY
 
 
 :: submit-crisis-youth {"position":"34,1232","size":"100,100"}
-Thank you, a member of the team will get back to you as soon as possible.
+<div class="contain">
 
+Thank you, a member of the team will get back to you as soon as possible.
+</div>
 SUBMITSUMMARY
 
 
 :: submit-donation-adult {"position":"1320,913","size":"100,100"}
-Thank you, a member of the team will get back to you as soon as possible.
+<div class="contain">
 
+Thank you, a member of the team will get back to you as soon as possible.
+</div>
 SUBMITSUMMARY
 
 
 :: submit-donation-question {"position":"1092,993","size":"100,100"}
-Thank you, a member of the team will get back to you as soon as possible.
+<div class="contain">
 
+Thank you, a member of the team will get back to you as soon as possible.
+</div>
 SUBMITSUMMARY
 
 
 :: submit-donation-youth {"position":"1202,918","size":"100,100"}
-Thank you, a member of the team will get back to you as soon as possible.
+<div class="contain">
 
+Thank you, a member of the team will get back to you as soon as possible.
+</div>
 SUBMITSUMMARY
 
 
 :: submit-family-general {"position":"777,753","size":"100,100"}
-Thank you, a member of the team will get back to you as soon as possible.
+<div class="contain">
 
+Thank you, a member of the team will get back to you as soon as possible.
 In the meantime, why not check out our resources for families:
+</div>
 
 [REDIRECT]:[Resources for families](https://genderedintelligence.co.uk/families/resources.html)[/REDIRECT]
 
@@ -669,141 +764,184 @@ SUBMITSUMMARY
 
 
 :: submit-family-urgent {"position":"657,752","size":"100,100"}
-Thank you, a member of the team will get back to you as soon as possible.
+<div class="contain">
 
+Thank you, a member of the team will get back to you as soon as possible.
+</div>
 SUBMITSUMMARY
 
 
 :: submit-fundraiser-upcoming {"position":"1389,1035","size":"100,100"}
-Thanks again, a member of the team will get back to you as soon as possible.
+<div class="contain">
 
+Thanks again, a member of the team will get back to you as soon as possible.
+</div>
 SUBMITSUMMARY
 
 
 :: submit-fundraising-completed {"position":"1552,1033","size":"100,100"}
-Thanks again, a member of the team will get back to you as soon as possible.
+<div class="contain">
 
+Thanks again, a member of the team will get back to you as soon as possible.
+</div>
 SUBMITSUMMARY
 
 
 :: submit-it {"position":"4091,708","size":"100,100"}
-Thank you, a member of the team will get back to you as soon as possible.
+<div class="contain">
 
+Thank you, a member of the team will get back to you as soon as possible.
+</div>
 SUBMITSUMMARY
 
 
 :: submit-media-interview {"position":"3089,901","size":"100,100"}
-Thank you, a member of the team will get back to you as soon as possible.
+<div class="contain">
 
+Thank you, a member of the team will get back to you as soon as possible.
+</div>
 SUBMITSUMMARY
 
 
 :: submit-other {"position":"4376,627","size":"100,100"}
-Thank you, your message has been sent to us and we will read it as soon as possible.
+<div class="contain">
 
+Thank you, your message has been sent to us and we will read it as soon as possible.
+</div>
 SUBMITSUMMARY
 
 
 :: submit-other-adult {"position":"750,1226","size":"100,100"}
-Thank you, a member of the team will get back to you as soon as possible.
+<div class="contain">
 
+Thank you, a member of the team will get back to you as soon as possible.
+</div>
 SUBMITSUMMARY
 
 
 :: submit-other-youth {"position":"600,1226","size":"100,100"}
-Thanks for getting in touch, a member of our team will be in touch as soon as possible.
+<div class="contain">
 
+Thanks for getting in touch, a member of our team will be in touch as soon as possible.
+</div>
 SUBMITSUMMARY
 
 
 :: submit-participate-event {"position":"2937,866","size":"100,100"}
-Thank you, a member of the team will get back to you as soon as possible.
+<div class="contain">
 
+Thank you, a member of the team will get back to you as soon as possible.
+</div>
 SUBMITSUMMARY
 
 
 :: submit-partnership {"position":"3317,1055","size":"100,100"}
-Thanks, we will get back to you as soon as possible.
+<div class="contain">
 
+Thanks, we will get back to you as soon as possible.
+</div>
 SUBMITSUMMARY
 
 
 :: submit-promotion-request {"position":"3242,770","size":"100,100"}
-Thanks, we will get back to you as soon as possible if we have any questions, but please note we get a high volume of these requests and are not able to share everything.
+<div class="contain">
 
+Thanks, we will get back to you as soon as possible if we have any questions, but please note we get a high volume of these requests and are not able to share everything.
+</div>
 SUBMITSUMMARY
 
 
 :: submit-recruitment {"position":"4254,691","size":"100,100"}
-Thank you, your message has been sent to us and we will read it as soon as possible.
+<div class="contain">
 
+Thank you, your message has been sent to us and we will read it as soon as possible.
+</div>
 SUBMITSUMMARY
 
 
 :: submit-research {"position":"2473,929","size":"100,100"}
-Thanks for getting in touch, a member of the team will get back to you if we can help out.
+<div class="contain">
 
+Thanks for getting in touch, a member of the team will get back to you if we can help out.
+</div>
 SUBMITSUMMARY
 
 
 :: submit-self-adult {"position":"315,1226","size":"100,100"}
-Thank you, a member of the team will get back to you as soon as possible.
+<div class="contain">
 
+Thank you, a member of the team will get back to you as soon as possible.
+</div>
 SUBMITSUMMARY
 
 
 :: submit-self-youth {"position":"468,1229","size":"100,100"}
-Thanks for getting in touch, a member of our team will be in touch as soon as possible.
+<div class="contain">
 
+Thanks for getting in touch, a member of our team will be in touch as soon as possible.
+</div>
 SUBMITSUMMARY
 
 
 :: submit-speaker {"position":"2684,1064","size":"100,100"}
-Thank you, a member of the team will get back to you as soon as possible.
+<div class="contain">
 
+Thank you, a member of the team will get back to you as soon as possible.
+</div>
 SUBMITSUMMARY
 
 
 :: submit-speaker-school {"position":"2539,1073","size":"100,100"}
-Thank you, a member of the team will get back to you as soon as possible.
+<div class="contain">
 
+Thank you, a member of the team will get back to you as soon as possible.
+</div>
 SUBMITSUMMARY
 
 
 :: submit-support-education {"position":"885,1136","size":"100,100"}
-Thank you, a member of the team will get back to you as soon as possible.
+<div class="contain">
 
+Thank you, a member of the team will get back to you as soon as possible.
+</div>
 SUBMITSUMMARY
 
 
 :: submit-training {"position":"2271,769","size":"100,100"}
-Thanks for getting in touch, a member of the team will get back to you as soon as possible.
+<div class="contain">
 
+Thanks for getting in touch, a member of the team will get back to you as soon as possible.
+</div>
 SUBMITSUMMARY
 
 
 :: submit-unpaid-speaker {"position":"2822,1076","size":"100,100"}
-Thank you, a member of the team will get back to you as soon as possible.
+<div class="contain">
 
+Thank you, a member of the team will get back to you as soon as possible.
+</div>
 SUBMITSUMMARY
 
 
 :: submit-volunteer {"position":"1037,1223","size":"100,100"}
-Thank you, a member of the team will get back to you as soon as possible.
+<div class="contain">
 
+Thank you, a member of the team will get back to you as soon as possible.
+</div>
 SUBMITSUMMARY
 
 
 :: support {"position":"312,286","size":"100,100"}
-[QUESTION]:Are you (or the person you're seeking support for) located in the UK?[/QUESTION]
+[QUESTION]Are you (or the person you're seeking support for) located in the UK?[/QUESTION]
 
 [[Yes->support-in-uk]]
 [[No->support-outside-uk]]
 
 
 :: support-crisis {"position":"134,889","size":"100,100"}
-Unfortunately our inbox is not manned 24/7 and we are not equipped to respond to emergency requests.
+<div class="contain">
 
+Unfortunately our inbox is not manned 24/7 and we are not equipped to respond to emergency requests.
 If you need to speak to someone immediately, please call Childline: 0800 11 11 or Samaritans: 116 123.  
 
 Both call lines offer FREE immediate, 24 hour, confidential support and listening from trained workers.
@@ -815,17 +953,20 @@ For other immediate support, check out this Support Hub:
 [REDIRECT]:[Support hub](http://sabahchoudrey.com/supporthub/)[/REDIRECT]
 
 However, we will respond as quickly as we can to urgent support requests. If you wish to send us a message, please continue.
+</div>
 
-[QUESTION]:How old are you?[/QUESTION]
+[QUESTION]How old are you?[/QUESTION]
 
 [[Under 30->crisis-youth]]
 [[30 and over->crisis-adult]]
 
 
 :: support-education {"position":"745.6666666666666,906","size":"100,100"}
-If you work in education and are interested in supporting your trans and non-binary students, you can get in touch with our education team.
+<div class="contain">
 
+If you work in education and are interested in supporting your trans and non-binary students, you can get in touch with our education team.
 Please fill in the form below and a member of the team will be in touch with you as soon as we can.
+</div>
 
 [FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
 [FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
@@ -836,38 +977,40 @@ Please fill in the form below and a member of the team will be in touch with you
 
 
 :: support-in-uk {"position":"430,436","size":"100,100"}
-[QUESTION]:Is the support for an individual or a family?[/QUESTION]
+[QUESTION]Is the support for an individual or a family?[/QUESTION]
 
 [[Individual->individual-support]]
 [[Family->family-support]]
 
 
 :: support-myself {"position":"232,671","size":"100,100"}
-[QUESTION]:Are you currently in a crisis or emergency situation?[/QUESTION]
+[QUESTION]Are you currently in a crisis or emergency situation?[/QUESTION]
 
 [[Yes, I am->support-crisis]]
 [[No, I am not->support-non-emergency]]
 
 
 :: support-non-emergency {"position":"336,906","size":"100,100"}
-[QUESTION]:How old are you?[/QUESTION]
+[QUESTION]How old are you?[/QUESTION]
 [[Under 30->support-self-youth]]
 [[30 and over->support-self-adult]]
 
 
 :: support-other {"position":"520,929","size":"100,100"}
-[QUESTION]:What is their age?[/QUESTION]
+[QUESTION]What is their age?[/QUESTION]
 
 [[Under 30->support-other-youth]]
 [[30 or over->support-other-adult]]
 
 
 :: support-other-adult {"position":"750,1076","size":"100,100"}
-We offer a Support Line for the patients of Nottingham Centre for Transgender Health & Sheffield Porterbrook Clinics.
+<div class="contain">
 
+We offer a Support Line for the patients of Nottingham Centre for Transgender Health & Sheffield Porterbrook Clinics.
 [REDIRECT]:[Support Line](https://genderedintelligence.co.uk/projects/supportline.html)[/REDIRECT]
 
 Please fill in the form below and a member of the team will be in touch with you as soon as we can.
+</div>
 
 [FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
 [FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
@@ -878,11 +1021,13 @@ Please fill in the form below and a member of the team will be in touch with you
 
 
 :: support-other-youth {"position":"598,1076","size":"100,100"}
-We offer a number of different services for young people. Find information on them plus resources here:
+<div class="contain">
 
+We offer a number of different services for young people. Find information on them plus resources here:
 [REDIRECT]:[Young people](https://genderedintelligence.co.uk/support/trans-youth.html)[/REDIRECT]
 
 If you want to get in touch with us about attending a youth group or other support, please fill in the form below and a member of the team will be in touch with you as soon as we can.
+</div>
 
 [FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
 [FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
@@ -902,6 +1047,7 @@ Are you interested in any of the following: (optional)
 
 
 :: support-outside-uk {"position":"535,318","size":"100,100"}
+<div class="contain">
 
 Unfortunately under UK law we are unable to provide support to people located outside of the UK.
 			 
@@ -915,13 +1061,16 @@ We are sorry we are not able to help further.
 			 
 If you ever find yourself in the UK, please do not hesitate to contact us again.
 
+</div>
 
 :: support-self-adult {"position":"311,1076","size":"100,100"}
-We offer a Support Line for the patients of Nottingham Centre for Transgender Health & Sheffield Porterbrook Clinics.
+<div class="contain">
 
+We offer a Support Line for the patients of Nottingham Centre for Transgender Health & Sheffield Porterbrook Clinics.
 [REDIRECT]:[Support Line](https://genderedintelligence.co.uk/projects/supportline.html)[/REDIRECT]
 
 Please fill in the form below and a member of the team will be in touch with you as soon as we can.
+</div>
 
 [FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
 [FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
@@ -931,11 +1080,13 @@ Please fill in the form below and a member of the team will be in touch with you
 
 
 :: support-self-youth {"position":"468,1078","size":"100,100"}
-We offer a number of different services for young people. Find information on them plus resources here:
+<div class="contain">
 
+We offer a number of different services for young people. Find information on them plus resources here:
 [REDIRECT]:[Young people](https://genderedintelligence.co.uk/support/trans-youth.html)[/REDIRECT]
 
 If you want to get in touch with us about attending a youth group or other support, please fill in the form below and a member of the team will be in touch with you as soon as we can.
+</div>
 
 [FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
 [FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
@@ -954,7 +1105,7 @@ Are you interested in any of the following: (optional)
 
 
 :: support-someone-else {"position":"408,756","size":"100,100"}
-[QUESTION]:What is your relationship to the individual?[/QUESTION]
+[QUESTION]What is your relationship to the individual?[/QUESTION]
 
 [[Family, partner, friend or other personal relation->support-other]]
 [[They are a patient, service user, coworker or other professional relation->support-other]]
@@ -962,9 +1113,11 @@ Are you interested in any of the following: (optional)
 
 
 :: training {"position":"2292,601","size":"100,100"}
-We offer individual training and workplace training, check out the links below for full details before making an enquiry.
+<div class="contain">
 
+We offer individual training and workplace training, check out the links below for full details before making an enquiry.
 [REDIRECT]:[Individual training](https://genderedintelligence.co.uk/professionals/cpd.html)[/REDIRECT]
+</div>
 
 [REDIRECT]:[Workplace training](https://genderedintelligence.co.uk/professionals/training.html)[/REDIRECT]
 
@@ -978,8 +1131,10 @@ Please fill in the contact form below and a member of our team will get back to 
 
 
 :: unpaid-speaker {"position":"2797,888","size":"100,100"}
-Please fill in the form below and we will be in contact with you. Note that we can only take part in unpaid events and projects if we have capacity or it is mutually beneficial.
+<div class="contain">
 
+Please fill in the form below and we will be in contact with you. Note that we can only take part in unpaid events and projects if we have capacity or it is mutually beneficial.
+</div>
 [FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
 [FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
 [FORMFIELD]:[When]{timescale}(text)[/FORMFIELD]
@@ -990,28 +1145,32 @@ Please fill in the form below and we will be in contact with you. Note that we c
 
 
 :: volunteer {"position":"894,449","size":"100,100"}
-[QUESTION]:Which of these best fits your enquiry?[/QUESTION]
+[QUESTION]Which of these best fits your enquiry?[/QUESTION]
 
 [[Apply to volunteer->volunteer-apply]]
 [[Ask a question about volunteering->volunteer-question]]
 
 
 :: volunteer-apply {"position":"884,693","size":"100,100"}
-Please read our full volunteering information here:
+<div class="contain">
 
+Please read our full volunteering information here:
 [REDIRECT]:[Volunteering](https://genderedintelligence.co.uk/support-us/volunteer.html)[/REDIRECT]
 
 [REDIRECT]:[Application form](https://genderedintelligence.co.uk/support-us/volunteer/form.html)[/REDIRECT]
 
 Did you still have a question for us?
+</div>
 
 [[Yes->volunteer-question]] 
 
 
 :: volunteer-question {"position":"943,979","size":"100,100"}
-If you have applied to volunteer with us already, please be aware that we have limited capacity to respond to volunteer applications. If 4 weeks has not passed yet, please wait before getting in touch with us, unless you have something to add or a specific question.
+<div class="contain">
 
+If you have applied to volunteer with us already, please be aware that we have limited capacity to respond to volunteer applications. If 4 weeks has not passed yet, please wait before getting in touch with us, unless you have something to add or a specific question.
 If we have not replied after 4 weeks or if you have a question about volunteering, please fill in the form below and we will be in touch.
+</div>
 
 [FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
 [FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
@@ -1022,11 +1181,13 @@ If we have not replied after 4 weeks or if you have a question about volunteerin
 
 
 :: youth-group-info {"position":"1634,1458","size":"100,100"}
+<div class="contain">
+
 Check out the following page for information on our youth groups:
-
 [REDIRECT]:[Youth groups](https://genderedintelligence.co.uk/trans-youth/youth-group.html)[/REDIRECT]
+</div>
 
-[QUESTION]:Are you (or someone you know) interested in attending a youth group?[/QUESTION]
+[QUESTION]Are you (or someone you know) interested in attending a youth group?[/QUESTION]
 
 [[I want to attend a youth group->support-self-youth]]
 [[I want to enquire about a youth group for someone else->support-other-youth]]
