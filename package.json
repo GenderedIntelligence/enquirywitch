@@ -29,7 +29,7 @@
       "watch": "^0.16.0"
    },
    "devDependencies": {
-      "express": "^4.17.1",
+      "express": "^4.18.2",
       "@babel/preset-env": "^7.14.4",
       "@fintechstudios/eslint-plugin-chai-as-promised": "^3.1.0",
       "babelify": "^10.0.0",
