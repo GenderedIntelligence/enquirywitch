@@ -8,7 +8,7 @@ note \* (wizards are bureacratic and patriarchal, and witches are holistic and c
 
 ##
 
-[Link to the format to import to Twine](https://geeksforsocialchange.github.io/enquirywitch/dist/enquirywitch-0.0.1/format.js)
+[Link to the format to import to Twine](https://github.com/GenderedIntelligence/enquirywitch/dist/enquirywitch-0.0.1/format.js)
 
 ## Get started
 
