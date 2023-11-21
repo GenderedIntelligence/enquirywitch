@@ -1200,5 +1200,5 @@ Check out the following page for information on our youth groups:
 :: StoryScript [script]
 
 			window.preview = true;
-			window.postURL = "https://awesome-noether-adb80b.netlify.app/.netlify/functions/enquiryWitch";
+			window.config.postURL = "https://awesome-noether-adb80b.netlify.app/.netlify/functions/enquiryWitch";
 			
