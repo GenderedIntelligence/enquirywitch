@@ -8,7 +8,7 @@ note \* (wizards are bureacratic and patriarchal, and witches are holistic and c
 
 ##
 
-[Link to the format to import to Twine](https://geeksforsocialchange.github.io/enquirywitch/dist/enquirywitch-0.0.1/format.js)
+[Link to the format to import to Twine](https://github.com/GenderedIntelligence/enquirywitch/dist/enquirywitch-0.0.1/format.js)
 
 ## Get started
 
@@ -90,7 +90,7 @@ Changes to the story content can be made in `./GI_Contact_Page.twee`.
 Changes to the styles can be made in `./lib/src/ew.scss`.
 
 1. install Twine locally using your package manager or from the [releases page](https://github.com/klembot/twinejs/releases)
-1. `git clone https://github.com/geeksforsocialchange/enquirywitch.git && cd enquirywitch`
+1. `git clone https://github.com/GenderedIntelligence/enquirywitch && cd enquirywitch`
 1. Run `npm install` to install dependancies
 1. `npm run build` will create a Twine 2-ready story format under `dist/`.
 1. `npm start` will spin up a server for development
