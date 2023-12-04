@@ -12,33 +12,21 @@ GI Contact Page
 }
 
 
-:: advice-team {"position":"1765.3333333333333,1856.3333333333335","size":"100,100"}
-<div class="contain">
-
+:: advice-team {"position":"1765,1856","size":"100,100"}
 If your message is relating to one of the other areas of GI (training, support, media, youth groups) we'll get to it quicker if you select the options from the previous menu.
 Otherwise, please fill out this form and we will get your message to the right place.
-</div>
-
-[FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
-[FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
-[FORMFIELD]:[Message]{message_body}(text-long)[/FORMFIELD]
-
-[[!Submit->sendTo:jazz->submit-advice-team]]
+FORMFIELD:[Name]{name}(text)/FORMFIELD
+FORMFIELD:[Email]{email_address}(text)/FORMFIELD
+FORMFIELD:[Message]{message_body}(text-long)/FORMFIELD
+[[Submit->!!sendTo:admin!!->submit-advice-team]]
 
 
-:: advice-trans-friendly {"position":"2393.3333333333335,1469","size":"100,100"}
-<div class="contain">
-
+:: advice-trans-friendly {"position":"2393,1469","size":"100,100"}
 We have a massive list of resources that can be accessed by downloading the pdf on our resources page:
-[REDIRECT]:[Resources](https://genderedintelligence.co.uk/professionals/resources.html)[/REDIRECT]
-
-If you need more feedback, we offer consultancy, which is charged at £90 an hour. If it might be mutually beneficial to us, we may be able to have a chat with you free of charge but this depends on our capacity.
-
+REDIRECT:[Resources](https://genderedintelligence.co.uk/professionals/resources.html)/REDIRECT
+If you need more feedback, we offer consultancy, which we charge for at an hourly rate. If it is mutually beneficial to us, we may be able to have a chat with you free of charge but this depends on our capacity.
 We also offer training for schools, workplaces and families.
-
 If you would like to contact us about either of these, please select the option below and get in touch with us, or send us an email if your request falls outside of that remit.
-</div>
-
 [[Gender monitoring forms->gender-monitoring]]
 [[Consultancy->consultancy]]
 [[Training->training]]
@@ -46,74 +34,51 @@ If you would like to contact us about either of these, please select the option 
 
 
 :: casting-call {"position":"3599,524","size":"100,100"}
-<div class="contain">
-
 We can circulate casting calls for trans actors.
 Please note the role counts as unpaid if only expenses are covered.
-</div>
-[QUESTION]Is the casting call for a paid role?[/QUESTION]
-
+QUESTION:Is the casting call for a paid role?/QUESTION
 [[Paid opportunity->casting-call-paid]]
 [[Unpaid opportunity->casting-call-unpaid]]
 
 
 :: casting-call-paid {"position":"3527,691","size":"100,100"}
-<div class="contain">
-
 Please fill in the form below and we will circulate your opportunity with our acting network if appropriate.
 Please provide us with as much information as possible.
-</div>
-[FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
-[FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
-[FORMFIELD]:[Website]{website}(text)[/FORMFIELD]
-[FORMFIELD]:[Timescale]{when}(text)[/FORMFIELD]
-[FORMFIELD]:[Message]{message_body}(text-long)[/FORMFIELD]
-[FORMFIELD]:[Image link]{image_link}(text)[/FORMFIELD]
-
-
-[[!Submit->sendTo:jazz->submit-casting-call]]
+FORMFIELD:[Name]{name}(text)/FORMFIELD
+FORMFIELD:[Email]{email_address}(text)/FORMFIELD
+FORMFIELD:[Website]{website}(text)/FORMFIELD
+FORMFIELD:[Timescale]{when}(text)/FORMFIELD
+FORMFIELD:[Message]{message_body}(text-long)/FORMFIELD
+UPLOAD:Link to a PDF or image advert:/UPLOAD
+[[Submit->!!sendTo:publicEngagement!!->submit-casting-call]]
 
 
 :: casting-call-unpaid {"position":"3672,675","size":"100,100"}
-<div class="contain">
-
 Unfortunately we do not circulate unpaid casting calls to our networks. Feel free to get back in touch with us if you decide to budget for this role or if you have any further paid opportunities available for trans actors. 
-</div>
+
 
 :: collaboration {"position":"3491,893","size":"100,100"}
-<div class="contain">
-
 Please fill in the form below and a member of our team will get back to you as soon as possible.
-</div>
-[FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
-[FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
-[FORMFIELD]:[Timescale]{when}(text)[/FORMFIELD]
-[FORMFIELD]:[Twitter]{twitter}(text)[/FORMFIELD]
-[FORMFIELD]:[Facebook]{facebook}(text)[/FORMFIELD]
-[FORMFIELD]:[Instagram]{instagram}(text)[/FORMFIELD]
-[FORMFIELD]:[Website]{website}(text)[/FORMFIELD]
-
-<div class="contain">
-
+FORMFIELD:[Name]{name}(text)/FORMFIELD
+FORMFIELD:[Email]{email_address}(text)/FORMFIELD
+FORMFIELD:[Timescale]{when}(text)/FORMFIELD
+FORMFIELD:[Twitter]{twitter}(text)/FORMFIELD
+FORMFIELD:[Facebook]{facebook}(text)/FORMFIELD
+FORMFIELD:[Instagram]{instagram}(text)/FORMFIELD
+FORMFIELD:[Website]{website}(text)/FORMFIELD
 Which of these do you see the collaboration or partnership involving?
-</div>
-
-[CHECKBOX]:[Fundraising for GI]{fundraising_for_gi}[/CHECKBOX]
-[CHECKBOX]:[Volunteering with GI]{volunteering_with_gi}[/CHECKBOX]
-[CHECKBOX]:[Online event]{online_event}[/CHECKBOX]
-[CHECKBOX]:[IRL event]{irl_event}[/CHECKBOX]
-[CHECKBOX]:[Artistic or performance]{artistic_or_performance}[/CHECKBOX]
-
-[FORMFIELD]:[Message]{message_body}(text-long)[/FORMFIELD]
-
-[FORMFIELD]:[Image link]{image_link}(text)[/FORMFIELD]
-
-[[!Submit->sendTo:jazz->submit-collaboration]]
+CHECKBOX:[Fundraising for GI]{fundraising_for_gi}/CHECKBOX
+CHECKBOX:[Volunteering with GI]{volunteering_with_gi}/CHECKBOX
+CHECKBOX:[Online event]{online_event}/CHECKBOX
+CHECKBOX:[IRL event]{irl_event}/CHECKBOX
+CHECKBOX:[Artistic or performance]{artistic_or_performance}/CHECKBOX
+FORMFIELD:[Message]{message_body}(text-long)/FORMFIELD
+UPLOAD:Image link:/UPLOAD
+[[Submit->!!sendTo:admin!!->submit-collaboration]]
 
 
 :: collaborations-and-media {"position":"3374,266","size":"100,100"}
-[QUESTION]Which category does your enquiry fall under?[/QUESTION]
-
+QUESTION:Which category does your enquiry fall under?/QUESTION
 [[Invitation->invitation]]
 [[Collaborations and partnerships->collaborations-partnerships]]
 [[Request for promotion or circulation->promotion-request]]
@@ -121,276 +86,184 @@ Which of these do you see the collaboration or partnership involving?
 
 
 :: collaborations-partnerships {"position":"3399,683","size":"100,100"}
-[QUESTION]Are you a community organisation looking to partner with other community organisations?[/QUESTION]
-
-[QUESTION]Or is this a different type of collaboration request?[/QUESTION]
-
+QUESTION:Are you a community organisation looking to partner with other community organisations?/QUESTION
+QUESTION:Or is this a different type of collaboration request?/QUESTION
 [[Community organisation partnership->partnerships]]
 [[Other collaboration->collaboration]]
 
 
 :: consultancy {"position":"2152,909","size":"100,100"}
-<div class="contain">
-
 Read our information on consultancy here before making an enquiry:
-[REDIRECT]:[Consultancy](https://genderedintelligence.co.uk/professionals/policy.html)[/REDIRECT]
-
+REDIRECT:[Consultancy](https://genderedintelligence.co.uk/professionals/policy.html)/REDIRECT
 Please fill in the contact form below and a member of our team will get back to you as soon as possible.
-</div>
-
-[FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
-[FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
-[FORMFIELD]:[Message]{message_body}(text-long)[/FORMFIELD]
-
-[[!Submit->sendTo:jazz->submit-consultancy]]
+FORMFIELD:[Name]{name}(text)/FORMFIELD
+FORMFIELD:[Email]{email_address}(text)/FORMFIELD
+FORMFIELD:[Message]{message_body}(text-long)/FORMFIELD
+[[Submit->!!sendTo:professionalServices!!->submit-consultancy]]
 
 
 :: crisis-adult {"position":"191,1054","size":"100,100"}
-<div class="contain">
-
 Please fill in the form below and we will respond as soon as we can.
-</div>
-[FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
-[FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
-[FORMFIELD]:[Message]{message_body}(text-long)[/FORMFIELD]
-
-[[!Submit->sendTo:jazz->submit-crisis-adult]]
+FORMFIELD:[Name]{name}(text)/FORMFIELD
+FORMFIELD:[Email]{email_address}(text)/FORMFIELD
+FORMFIELD:[Message]{message_body}(text-long)/FORMFIELD
+[[Submit->!!sendTo:supportLine!!->submit-crisis-adult]]
 
 
 :: crisis-youth {"position":"32,1059","size":"100,100"}
-<div class="contain">
-
 Please fill in the form below and we will respond as soon as we can.
-</div>
-[FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
-[FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
-[FORMFIELD]:[Message]{message_body}(text-long)[/FORMFIELD]
-
-[[!Submit->sendTo:jazz->submit-crisis-youth]]
+FORMFIELD:[Name]{name}(text)/FORMFIELD
+FORMFIELD:[Email]{email_address}(text)/FORMFIELD
+FORMFIELD:[Message]{message_body}(text-long)/FORMFIELD
+[[Submit->!!sendTo:youthWork;cc:finn,jake!!->submit-crisis-youth]]
 
 
 :: donation {"position":"1092,473","size":"100,100"}
-<div class="contain">
-
 Donations help fund our trans work youth, volunteering schemes, campaigning work and help us improve the lives of trans people.
-</div>
-[QUESTION]How do you want to donate to us?[/QUESTION]
-
+QUESTION:How do you want to donate to us?/QUESTION
 [[Money donation->donation-money]]
 [[Item donation->donation-item]]
 
 
 :: donation-item {"position":"1275,634","size":"100,100"}
-<div class="contain">
-
 Thanks for offering to donate to us! Is/are the item(s) for our trans youth specifically or for all ages?
-</div>
 [[Donate items for trans youth->donation-item-youth]]
 [[Donate items for any age->donation-item-adult]]
 
 
 :: donation-item-adult {"position":"1335,781","size":"100,100"}
-<div class="contain">
-
 Please fill in the form below and one of us will get back to you as soon as possible.
-</div>
-[FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
-[FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
-[FORMFIELD]:[What is it you want to donate?]{fundraiser_details}(text-long)[/FORMFIELD]
-[FORMFIELD]:[Message]{message_body}(text-long)[/FORMFIELD]
-
-[[!Submit->sendTo:jazz->submit-donation-adult]]
+FORMFIELD:[Name]{name}(text)/FORMFIELD
+FORMFIELD:[Email]{email_address}(text)/FORMFIELD
+FORMFIELD:[What is it you want to donate?]{fundraiser_details}(text-long)/FORMFIELD
+FORMFIELD:[Message]{message_body}(text-long)/FORMFIELD
+[[Submit->!!sendTo:admin!!->submit-donation-adult]]
 
 
-:: donation-item-youth {"position":"1209,782.3333333333334","size":"100,100"}
-<div class="contain">
-
+:: donation-item-youth {"position":"1209,782","size":"100,100"}
 Please fill in the form below and one of us will get back to you as soon as possible.
-</div>
-[FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
-[FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
-[FORMFIELD]:[What is it you want to donate?]{fundraiser_details}(text-long)[/FORMFIELD]
-[FORMFIELD]:[Message]{message_body}(text-long)[/FORMFIELD]
-
-[[!Submit->sendTo:jazz->submit-donation-youth]]
+FORMFIELD:[Name]{name}(text)/FORMFIELD
+FORMFIELD:[Email]{email_address}(text)/FORMFIELD
+FORMFIELD:[What is it you want to donate?]{fundraiser_details}(text-long)/FORMFIELD
+FORMFIELD:[Message]{message_body}(text-long)/FORMFIELD
+[[Submit->!!sendTo:admin!!->submit-donation-youth]]
 
 
 :: donation-money {"position":"1092,693","size":"100,100"}
-<div class="contain">
-
 You can find all about how to donate on our donation page here:
-</div>
-[REDIRECT]:[Donate to GI](https://genderedintelligence.co.uk/support-us/donate.html)[/REDIRECT]
-
+REDIRECT:[Donate to GI](https://genderedintelligence.co.uk/support-us/donate.html)/REDIRECT
 Do you still have a question about donating?
-
 [[Yes->donation-money-question]]
 
 
 :: donation-money-question {"position":"1090,841","size":"100,100"}
-<div class="contain">
-
 Please fill in the form below and one of us will get back to you as soon as possible.
-</div>
-[FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
-[FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
-[FORMFIELD]:[Message]{message_body}(text-long)[/FORMFIELD]
-
-[[!Submit->sendTo:jazz->submit-donation-question]]
+FORMFIELD:[Name]{name}(text)/FORMFIELD
+FORMFIELD:[Email]{email_address}(text)/FORMFIELD
+FORMFIELD:[Message]{message_body}(text-long)/FORMFIELD
+[[Submit->!!sendTo:admin!!->submit-donation-question]]
 
 
 :: family-support {"position":"584,506","size":"100,100"}
-<div class="contain">
-
-We will give top priority to urgent requests, e.g. if there are safeguarding issues, there are risks with the mental health of family members.
+We will give top priority to urgent requests, e.g. if there are safeguarding issues, or if there are risks with the mental health of family members.
 However please note we operate regular working hours and we do not have the capacity to respond to emergencies.
-
 If your request isn't urgent we will still prioritise getting back to you as soon as possible.
-</div>
-
-[QUESTION]Is your enquiry urgent?[/QUESTION]
+QUESTION:Is your enquiry urgent?/QUESTION
 [[Yes, it is urgent->family-support-urgent]]
 [[No, it isn't urgent->family-support-general]]
 
 
 :: family-support-general {"position":"742,603","size":"100,100"}
-<div class="contain">
-
 We offer services for families in need of some support, such as peer groups for youths and parent/family workshops for adults.
 We also have a list of resources for families here:
-
-[REDIRECT]:[Resources for families](https://genderedintelligence.co.uk/families/resources.html)[/REDIRECT]
-
+REDIRECT:[Resources for families](https://genderedintelligence.co.uk/families/resources.html)/REDIRECT
 Please fill in the form below and a member of our team will get back to you as soon as possible.
-</div>
-
-[FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
-[FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
-[FORMFIELD]:[Message]{message_body}(text-long)[/FORMFIELD]
-
-[[!Submit->sendTo:jazz->submit-family-general]]
+FORMFIELD:[Name]{name}(text)/FORMFIELD
+FORMFIELD:[Email]{email_address}(text)/FORMFIELD
+FORMFIELD:[Message]{message_body}(text-long)/FORMFIELD
+[[Submit->!!sendTo:families!!->submit-family-general]]
 
 
 :: family-support-urgent {"position":"512,640","size":"100,100"}
-<div class="contain">
-
-If you need to speak to someone immediately, please call Childline: 0800 11 11 or Samaritans: 116 123  
-
+If you need to speak to someone immediately, please call
+Childline: 0800 11 11 or Samaritans: 116 123
 Both call lines offer FREE immediate, 24 hour, confidential support and listening from trained workers.
-
 In an emergency, call 999 or make your way to the nearest Accident and Emergency department.
-
 For other immediate support, check out this Support Hub:
-</div>
-
-[REDIRECT]:[Support hub](http://sabahchoudrey.com/supporthub/)[/REDIRECT]
-
+REDIRECT:[Support hub](http://sabahchoudrey.com/supporthub/)/REDIRECT
 Unfortunately our inbox is not manned 24/7 and we are not equipped to respond to emergency requests.
-
 However, we will respond as quickly as we can to urgent support requests. If you wish to send us a message, please continue.
-
-[FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
-[FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
-[FORMFIELD]:[Message]{message_body}(text-long)[/FORMFIELD]
-
-[[!Submit->sendTo:jazz->submit-family-urgent]]
+FORMFIELD:[Name]{name}(text)/FORMFIELD
+FORMFIELD:[Email]{email_address}(text)/FORMFIELD
+FORMFIELD:[Message]{message_body}(text-long)/FORMFIELD
+[[Submit->!!sendTo:families;cc:finn,jake!!->submit-family-urgent]]
 
 
 :: fundraising {"position":"1429,650","size":"100,100"}
-<div class="contain">
-
 Thanks for fundraising for us!
-Has the fundraising already occured or it is planned?
-</div>
-
+QUESTION:Have you already fundraised, or is this a fundraiser scheduled for a later date?/QUESTION
 [[Upcoming fundraiser->fundraising-upcoming]]
 [[Already fundraised->fundraising-completed]]
 
 
 :: fundraising-completed {"position":"1557,810","size":"100,100"}
-<div class="contain">
-
 We are thrilled at your fundraising efforts!
 Please fill in the contact form below and a member of our team will get back to you as soon as possible.
-</div>
-
-[FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
-[FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
-[FORMFIELD]:[Tell us about the fundraiser]{fundraiser_details}(text-long)[/FORMFIELD]
-[FORMFIELD]:[Message]{message_body}(text-long)[/FORMFIELD]
-
-[[!Submit->sendTo:jazz->submit-fundraising-completed]]
+FORMFIELD:[Name]{name}(text)/FORMFIELD
+FORMFIELD:[Email]{email_address}(text)/FORMFIELD
+FORMFIELD:[Tell us about the fundraiser]{fundraiser_details}(text-long)/FORMFIELD
+FORMFIELD:[Message]{message_body}(text-long)/FORMFIELD
+[[Submit->!!sendTo:admin!!->submit-fundraising-completed]]
 
 
 :: fundraising-upcoming {"position":"1435,907","size":"100,100"}
-<div class="contain">
-
 We can help support your fundraising efforts as much as possible, including promoting on social media if appropriate.
 Please fill in the contact form below and a member of our team will get back to you as soon as possible.
-</div>
-
-[FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
-[FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
-[FORMFIELD]:[Fundraiser details - please include as much detail as possible]{fundraiser_details}(text-long)[/FORMFIELD]
-[FORMFIELD]:[Message]{message_body}(text-long)[/FORMFIELD]
-
-[[!Submit->sendTo:jazz->submit-fundraiser-upcoming]]
+FORMFIELD:[Name]{name}(text)/FORMFIELD
+FORMFIELD:[Email]{email_address}(text)/FORMFIELD
+FORMFIELD:[Fundraiser details - please include as much detail as possible]{fundraiser_details}(text-long)/FORMFIELD
+FORMFIELD:[Message]{message_body}(text-long)/FORMFIELD
+[[Submit->!!sendTo:admin!!->submit-fundraiser-upcoming]]
 
 
 :: gender-monitoring {"position":"2348,1052","size":"100,100"}
-<div class="contain">
-
 We have a document on how to capture gender in monitoring forms that can be viewed at the link below:
-[REDIRECT]:[Monitoring and Data Capture: Gender-Related Options](https://drive.google.com/file/d/19HvNTaB0civyimro_JS5ot5_nE9M8eHv/view)[/REDIRECT]
-
+REDIRECT:[Monitoring and Data Capture: Gender-Related Options](https://drive.google.com/file/d/19HvNTaB0civyimro_JS5ot5_nE9M8eHv/view)/REDIRECT
 If you have more questions, get in touch with our consultancy team below:
-</div>
-
 [[Consultancy->consultancy]] 
 
 
 :: help-gi {"position":"1019,281","size":"100,100"}
-[QUESTION]How do you want to help us?[/QUESTION]
+QUESTION:How do you want to help us?/QUESTION
 [[Volunteer with us->volunteer]]
 [[Donate to us->donation]]
 [[Fundraise for us->fundraising]]
 
 
 :: individual-support {"position":"282,533","size":"100,100"}
-[QUESTION] Is the support for yourself or for someone else?[/QUESTION]
+QUESTION: Is the support for yourself or for someone else?/QUESTION
 [[For myself->support-myself]]
 [[For someone else->support-someone-else]]
 
 
-:: info-name {"position":"1264.6666666666667,1637.6666666666667","size":"100,100"}
-<div class="contain">
-
+:: info-name {"position":"1264,1637","size":"100,100"}
 Here is some information on changing your name from our website:
-</div>
-[REDIRECT]:[Changing your name](https://genderedintelligence.co.uk/projects/kip/transitioning/name.html)[/REDIRECT]
+REDIRECT:[Changing your name](https://genderedintelligence.co.uk/projects/kip/transitioning/name.html)/REDIRECT
 
 
-:: info-therapy {"position":"991.9999999999999,1559.6666666666667","size":"100,100"}
-<div class="contain">
-
+:: info-therapy {"position":"991,1559","size":"100,100"}
 We have a directory of therapists and counsellors who have undergone training with us and wish to offer their services to trans people (and their families and partners).
-[REDIRECT]:[Therapists and Counsellors Directory](https://genderedintelligence.co.uk/professionals/therapists-and-counsellors/directory.html)[/REDIRECT]
-</div>
+REDIRECT:[Therapists and Counsellors Directory](https://genderedintelligence.co.uk/professionals/therapists-and-counsellors/directory.html)/REDIRECT
 
 
 :: info-youth {"position":"1133,1614","size":"100,100"}
-<div class="contain">
-
 We have an entire hub of information designed with trans youth (and everyone else too!) in mind.
 Check it out for answers to many of your questions:
-</div>
-
-[REDIRECT]:[Resources for young people](https://genderedintelligence.co.uk/trans-youth/resources.html)[/REDIRECT]
+REDIRECT:[Resources for young people](https://genderedintelligence.co.uk/trans-youth/resources.html)/REDIRECT
 
 
-:: information-and-advice {"position":"1790.3333333333333,985","size":"100,100"}
-[QUESTION]What type of information or advice are you looking for?[/QUESTION]
-
+:: information-and-advice {"position":"1790,986","size":"100,100"}
+QUESTION:What type of information or advice are you looking for?/QUESTION
 [[Information and advice for trans and non-binary people->information-trans]]
 [[Information on GI services->information-services]]
 [[Information for workplaces and schools->information-schools-workplaces]]
@@ -398,50 +271,26 @@ Check it out for answers to many of your questions:
 [[Ask the GI team for specific other info or advice->advice-team]]
 
 
-:: information-and-professional {"position":"2289,294","size":"100,100"}
-[QUESTION]Which of these options best fits your request?[/QUESTION]
-
-[[Information or advice->information-and-advice]]
-[[Request for research help or participation->research-request]]
-[[Consultancy queries and bookings->consultancy]]
-[[Training queries and bookings->training]]
-[[Speaker queries and bookings->invitation]]
-
-
-:: information-schools-workplaces {"position":"1923.3333333333335,1455.3333333333333","size":"100,100"}
-<div class="contain">
-
+:: information-schools-workplaces {"position":"1921,1455","size":"100,100"}
 We have resources for workplaces elsewhere on our website.
-[REDIRECT]:[Download our Trans Inclusion Resource List for Professionals](https://genderedintelligence.co.uk/static/pdfs/Trans-Resource-List-Issue-17.pdf)[/REDIRECT]
-
-[REDIRECT]:[Check out the rest of our resources for professionals](https://genderedintelligence.co.uk/professionals/resources.html)[/REDIRECT]
-
-[REDIRECT]:[How to write gender monitoring forms](https://drive.google.com/file/d/19HvNTaB0civyimro_JS5ot5_nE9M8eHv/view?usp=sharing)[/REDIRECT]
-
-If you had a different kind of question, choose one of the options below.
-</div>
-
-[QUESTION]Are you...?[/QUESTION]
-
+REDIRECT:[Download our Trans Inclusion Resource List for Professionals](https://genderedintelligence.co.uk/static/pdfs/Trans-Resource-List-Issue-17.pdf)/REDIRECT
+REDIRECT:[Check out the rest of our resources for professionals](https://genderedintelligence.co.uk/professionals/resources.html)/REDIRECT
+REDIRECT:[How to write gender monitoring forms](https://drive.google.com/file/d/19HvNTaB0civyimro_JS5ot5_nE9M8eHv/view?usp=sharing)/REDIRECT
+If you have a different kind of question, choose one of the options below.
+QUESTION:Are you...?/QUESTION
 [[A school looking for direct support for pupils->support-education]]
 [[A workplace looking for training for staff->training]]
 
 
-:: information-services {"position":"1730.6666666666667,1308","size":"100,100"}
-<div class="contain">
-
+:: information-services {"position":"1730,1308","size":"100,100"}
 Services we provide:
 * Youth groups
 * Training
 * Consultancy
 * Schools and education
 * Families
-
 Please note we can only provide support for youth and families in the UK.
-</div>
-
-[QUESTION]Would you like to contact us about any of our services?[/QUESTION]
-
+QUESTION:Would you like to contact us about any of our services?/QUESTION
 [[Youth groups->youth-group-info]]
 [[Training->training]]
 [[Consultancy->consultancy]]
@@ -449,9 +298,8 @@ Please note we can only provide support for youth and families in the UK.
 [[Families->family-support]]
 
 
-:: information-trans {"position":"1400.3333333333333,1303","size":"100,100"}
-[QUESTION]Are you looking for information on one of the following?[/QUESTION]
-
+:: information-trans {"position":"1400,1303","size":"100,100"}
+QUESTION:Are you looking for information on one of the following?/QUESTION
 [[General youth information->info-youth]]
 [[Changing your name->info-name]]
 [[Therapy->info-therapy]]
@@ -459,8 +307,7 @@ Please note we can only provide support for youth and families in the UK.
 
 
 :: invitation {"position":"2764,403","size":"100,100"}
-[QUESTION]Which of these best fits your request?[/QUESTION]
-
+QUESTION:Which of these best fits your request?/QUESTION
 [[Invitation to speak at a school or university->speaker-school]]
 [[Invitation to speak at a conference or event->speaker-event]]
 [[Invitation to participate in an LGBTQ+ public event->participate-event]]
@@ -468,23 +315,18 @@ Please note we can only provide support for youth and families in the UK.
 [[Other speaking or event invitation->speaker-other]]
 
 
-:: media-interview {"position":"3035,681","size":"100,100"}
-<div class="contain">
-
+:: media-interview {"position":"3033.3333333333335,681","size":"100,100"}
 Please fill in the form below and we will get back to you as soon as possible.
-</div>
-[FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
-[FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
-[FORMFIELD]:[Timescale for interview]{timescale}(text)[/FORMFIELD]
-[FORMFIELD]:[Publication]{website}(text)[/FORMFIELD]
-[FORMFIELD]:[Message]{message_body}(text-long)[/FORMFIELD]
-
-[[!Submit->sendTo:jazz->submit-media-interview]]
+FORMFIELD:[Name]{name}(text)/FORMFIELD
+FORMFIELD:[Email]{email_address}(text)/FORMFIELD
+FORMFIELD:[Timescale for interview]{timescale}(text)/FORMFIELD
+FORMFIELD:[Publication]{website}(text)/FORMFIELD
+FORMFIELD:[Message]{message_body}(text-long)/FORMFIELD
+[[Submit->!!sendTo:publicEngagement!!->submit-media-interview]]
 
 
 :: other {"position":"4109,327","size":"100,100"}
-[QUESTION]Is your message related to one of these topics?[/QUESTION]
-
+QUESTION:Is your message related to one of these topics?/QUESTION
 [[Request funding from us->other-funding]]
 [[IT (report a bug)->other-it]]
 [[I'm looking to recruit staff->other-recruitment]]
@@ -492,713 +334,491 @@ Please fill in the form below and we will get back to you as soon as possible.
 
 
 :: other-funding {"position":"3944,536","size":"100,100"}
-<div class="contain">
-
 Unfortunately we do not give out funding to individuals or projects.
 We sadly cannot promote individual surgery fundraisers, as we get so many requests for this. If you are looking to fundraise for surgery, we recommend taking a look at the #TransCrowdfund hashtag on Twitter.
 
-</div>
 
-:: other-it {"position":"4091,538.6666666666666","size":"100,100"}
-<div class="contain">
-
+:: other-it {"position":"4091,538","size":"100,100"}
 Use the form below to ask a question about IT or let us know that something on our website is broken. We will get back to you as soon as possible.
-</div>
-[FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
-[FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
-[FORMFIELD]:[Message]{message_body}(text-long)[/FORMFIELD]
-
-[[!Submit->sendTo:jazz->submit-it]]
+FORMFIELD:[Name]{name}(text)/FORMFIELD
+FORMFIELD:[Email]{email_address}(text)/FORMFIELD
+FORMFIELD:[Message]{message_body}(text-long)/FORMFIELD
+[[Submit->!!sendTo:admin!!->submit-it]]
 
 
 :: other-message {"position":"4374,477","size":"100,100"}
-<div class="contain">
-
 If your message is relating to one of the other areas of GI (training, support, media, youth groups) we'll get to it quicker if you select the options from the previous menu.
 Otherwise, please fill out this form and we will get your message to the right place.
-</div>
-
-[FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
-[FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
-[FORMFIELD]:[Message]{message_body}(text-long)[/FORMFIELD]
-
-
-[[!Submit->sendTo:jazz->submit-other]]
+FORMFIELD:[Name]{name}(text)/FORMFIELD
+FORMFIELD:[Email]{email_address}(text)/FORMFIELD
+FORMFIELD:[Message]{message_body}(text-long)/FORMFIELD
+[[Submit->!!sendTo:admin!!->submit-other]]
 
 
-:: other-recruitment {"position":"4254,541","size":"100,100"}
-<div class="contain">
-
+:: other-recruitment {"position":"4252.333333333333,541","size":"100,100"}
 Please only get in touch with us if your recruitment search is something that might be of specific interest to our networks.
-</div>
-[FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
-[FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
-[FORMFIELD]:[Message]{message_body}(text-long)[/FORMFIELD]
-
-[[!Submit->sendTo:jazz->submit-recruitment]]
+FORMFIELD:[Name]{name}(text)/FORMFIELD
+FORMFIELD:[Email]{email_address}(text)/FORMFIELD
+FORMFIELD:[Message]{message_body}(text-long)/FORMFIELD
+[[Submit->!!sendTo:recruitment!!->submit-recruitment]]
 
 
 :: participate-event {"position":"2891,701","size":"100,100"}
-<div class="contain">
-
 If you fill in the form below we will send your event to our public engagement team. Sadly we cannot participate in every event we are invited to, so if you don't hear back from us feel free to send a follow-up but we may be at capacity.
-</div>
-[FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
-[FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
-[FORMFIELD]:[When is the event]{timescale}(text)[/FORMFIELD]
-[FORMFIELD]:[Event details]{event_details}(text-long)[/FORMFIELD]
-[FORMFIELD]:[Message]{message_body}(text-long)[/FORMFIELD]
-
-[[!Submit->sendTo:jazz->submit-participate-event]]
+FORMFIELD:[Name]{name}(text)/FORMFIELD
+FORMFIELD:[Email]{email_address}(text)/FORMFIELD
+FORMFIELD:[When is the event]{timescale}(text)/FORMFIELD
+FORMFIELD:[Event details]{event_details}(text-long)/FORMFIELD
+FORMFIELD:[Message]{message_body}(text-long)/FORMFIELD
+[[Submit->!!sendTo:publicEngagement!!->submit-participate-event]]
 
 
 :: partnerships {"position":"3319,904","size":"100,100"}
-<div class="contain">
-
 Please fill in this form and we will get back to you.
-</div>
-[FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
-[FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
-[FORMFIELD]:[Org name]{institution_name}(text)[/FORMFIELD]
-[FORMFIELD]:[Website]{website}(text)[/FORMFIELD]
-[FORMFIELD]:[Message]{message_body}(text-long)[/FORMFIELD]
+FORMFIELD:[Name]{name}(text)/FORMFIELD
+FORMFIELD:[Email]{email_address}(text)/FORMFIELD
+FORMFIELD:[Org name]{institution_name}(text)/FORMFIELD
+FORMFIELD:[Website]{website}(text)/FORMFIELD
+FORMFIELD:[Message]{message_body}(text-long)/FORMFIELD
+[[Submit->!!sendTo:sahaf!!->submit-partnership]]
 
-[[!Submit->sendTo:jazz->submit-partnership]]
+
+:: professional-services {"position":"2289,294","size":"100,100"}
+We offer consultancy, training for workplaces and schools, and speakers for events and assemblies.
+We also have a list of resources for professionals.
+REDIRECT:[Resources for professionals](https://genderedintelligence.co.uk/professionals/resources.html)/REDIRECT
+QUESTION:Which of these options best fits your request?/QUESTION
+[[Consultancy queries and bookings->consultancy]]
+[[Training queries and bookings->training]]
+[[Speaker queries and bookings->invitation]]
+[[Request for research help or participation->research-request]]
 
 
 :: promotion-request {"position":"3239,623","size":"100,100"}
-<div class="contain">
-
-If you want us to share something on or social media or promote it to our networks, please fill in the form below.
+If you want us to share something on social media or promote it to our networks, please fill in the form below.
 We will only promote and/or circulate things that are of benefit to our networks.
 Please note that we cannot promote or circulate individual fundraisers (e.g. for surgery).
-</div>
-
-[FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
-[FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
-[FORMFIELD]:[Timescale]{timescale}(text)[/FORMFIELD]
-[FORMFIELD]:[Twitter]{twitter}(text)[/FORMFIELD]
-[FORMFIELD]:[Facebook]{facebook}(text)[/FORMFIELD]
-[FORMFIELD]:[Instagram]{instagram}(text)[/FORMFIELD]
-[FORMFIELD]:[Website]{website}(text)[/FORMFIELD]
-[FORMFIELD]:[Message]{message_body}(text-long)[/FORMFIELD]
-
-[FORMFIELD]:[Image link]{image_link}(text)[/FORMFIELD]
-
-[[!Submit->sendTo:jazz->submit-promotion-request]]
+FORMFIELD:[Name]{name}(text)/FORMFIELD
+FORMFIELD:[Email]{email_address}(text)/FORMFIELD
+FORMFIELD:[Timescale]{timescale}(text)/FORMFIELD
+FORMFIELD:[Twitter]{twitter}(text)/FORMFIELD
+FORMFIELD:[Facebook]{facebook}(text)/FORMFIELD
+FORMFIELD:[Instagram]{instagram}(text)/FORMFIELD
+FORMFIELD:[Website]{website}(text)/FORMFIELD
+FORMFIELD:[Message]{message_body}(text-long)/FORMFIELD
+UPLOAD:Image link:/UPLOAD
+[[Submit->!!sendTo:admin!!->submit-promotion-request]]
 
 
-:: research-request {"position":"2426,601.6666666666666","size":"100,100"}
-<div class="contain">
-
+:: research-request {"position":"2426,601","size":"100,100"}
+# Research
 We no longer participate in research requests where we are not specifically collaborating with the researcher.
-We will only circulate research requests that follow our policy below.
-
 We have decided to take this step because, as a small charity, we do not have the capacity to look into the content of individual research projects to make sure they align with our values and approach to research before sharing them. We feel that sharing a research request might be assumed to be an endorsement on our part. In addition, we receive an incredibly large number of requests for this kind of support and simply cannot work with all researchers.
-
-At the moment, we are prioritising the research and researchers with whom we are in partnership. However, we are able to offer consultancy to review research proposals and support them to meet the Basic Requirements shown below.  If we have worked with a project in this way, and through doing so can see that the research meets those requirements and aligns with our values, we will consider a request to circulate.
-			 
-### Gendered Intelligence’s Basic Requirements for research requests
-
+At the moment, we are prioritising the research and researchers with whom we are in partnership. However, we are able to offer consultancy to review research proposals and support them to meet the Basic Requirements shown below. If we have worked with a project in this way, and through doing so can see that the research meets those requirements and aligns with our values, we will consider a request to circulate.
+## Gendered Intelligence's Basic Requirements for research requests
 We ask that all proposed projects:
-
 - Have closely involved trans/non-binary people in their design
 - Have a clear focus on improving the lives of trans people
-- Offer expenses and compensation for people’s time
-- Recognise Gendered Intelligence’s desire to not call upon trans people too often to take part in research that asks them to recall distressing or difficult feelings and experiences; establish support routes accordingly
+- Offer expenses and compensation for people's time
+- Recognise Gendered Intelligence's desire to not call upon trans people too often to take part in research that asks them to recall distressing or difficult feelings and experiences; establish support routes accordingly
 - Use appropriate and inclusive language
-
 ### Consultancy charges
-
 Normally, offering support by email or phone would be charged at our minimum fee of £45/half hour. However, if something is going to take less than 10-15 minutes, we could look at providing that for free if it could help steer a piece of mutually beneficial work. We offer much wider-ranging consultancy and training, including trans awareness training.
-</div>
-
-[QUESTION]Would you like to discuss consultancy, training or research with a member of our team?[/QUESTION]
-
+QUESTION:Would you like to discuss consultancy, training or research with a member of our team?/QUESTION
 [[Yes->research-request-contact]]
 
 
 :: research-request-contact {"position":"2437,775","size":"100,100"}
-<div class="contain">
-
 Please get in touch with us on the form below and we will get back to you if we can help.
-</div>
-[FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
-[FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
-[FORMFIELD]:[Message]{message_body}(text-long)[/FORMFIELD]
-
-[[!Submit->sendTo:jazz->submit-research]]
+FORMFIELD:[Name]{name}(text)/FORMFIELD
+FORMFIELD:[Email]{email_address}(text)/FORMFIELD
+FORMFIELD:[Message]{message_body}(text-long)/FORMFIELD
+[[Submit->!!sendTo:professionalServices!!->submit-research]]
 
 
 :: speaker-event {"position":"2659,854","size":"100,100"}
-<div class="contain">
-
 Please fill in the form below and we will be in contact with you.
-</div>
-[FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
-[FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
-[FORMFIELD]:[When]{timescale}(text)[/FORMFIELD]
-[FORMFIELD]:[Organisation name]{institution_name}(text)[/FORMFIELD]
-[FORMFIELD]:[Message]{message_body}(text-long)[/FORMFIELD]
-
-[[!Submit->sendTo:jazz->submit-speaker]]
+FORMFIELD:[Name]{name}(text)/FORMFIELD
+FORMFIELD:[Email]{email_address}(text)/FORMFIELD
+FORMFIELD:[When]{timescale}(text)/FORMFIELD
+FORMFIELD:[Organisation name]{institution_name}(text)/FORMFIELD
+FORMFIELD:[Message]{message_body}(text-long)/FORMFIELD
+[[Submit->!!sendTo:professionalServices!!->submit-speaker]]
 
 
 :: speaker-other {"position":"2741,698","size":"100,100"}
-[QUESTION]Is this a paid opportunity?[/QUESTION]
-
+QUESTION:Is this a paid opportunity?/QUESTION
 [[Paid->speaker-event]]
 [[Unpaid->unpaid-speaker]]
 
 
 :: speaker-school {"position":"2607,634","size":"100,100"}
-<div class="contain">
-
-Please fill in the form below at booking a speaker or a school assembly for your school or university, and a member of the team will get back to you as soon as possible.
-</div>
-[FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
-[FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
-[FORMFIELD]:[When]{timescale}(text)[/FORMFIELD]
-[FORMFIELD]:[Institution name]{institution_name}(text)[/FORMFIELD]
-[FORMFIELD]:[Message]{message_body}(text-long)[/FORMFIELD]
-
-[[!Submit->sendTo:jazz->submit-speaker-school]]
+Please fill in the form below to book a speaker or a school assembly for your school or university, and a member of the team will get back to you as soon as possible.
+FORMFIELD:[Name]{name}(text)/FORMFIELD
+FORMFIELD:[Email]{email_address}(text)/FORMFIELD
+FORMFIELD:[When]{timescale}(text)/FORMFIELD
+FORMFIELD:[Institution name]{institution_name}(text)/FORMFIELD
+FORMFIELD:[Message]{message_body}(text-long)/FORMFIELD
+[[Submit->!!sendTo:professionalServices;cc:education!!->submit-speaker-school]]
 
 
-:: start {"position":"1981,85","size":"100,100"}
-<div class="start">
-Thanks for contacting Gendered Intelligence. We just have a few questions so we can direct your query to the right place. Nothing will be sent to us without your consent. Until you press 'submit', we do not store any personal data about you.
-</div>
-
-[QUESTION]What type of enquiry do you have?[/QUESTION]
-
+:: start {"position":"1979,85","size":"100,100"}
+Thanks for contacting Gendered Intelligence.
+We just have a few questions so we can direct your query to the right place.
+Nothing will be sent to us without your consent. Until you press 'submit', we do not store any personal data about you.
+QUESTION:What type of enquiry do you have?/QUESTION
 [[Support for an individual or family->support]]
 [[I want to help Gendered Intelligence->help-gi]]
-[[Information, advice, or professional training and queries->information-and-professional]]
+[[Training, consultancy and professional queries->professional-services]]
 [[Events, media, arts and partnerships->collaborations-and-media]]
+[[Information or advice->information-and-advice]]
 [[Other->other]]
 
 
-:: submit-advice-team {"position":"2212,1944.6666666666667","size":"100,100"}
-<div class="contain">
-
+:: submit-advice-team {"position":"2212,1944","size":"100,100"}
 Thank you, your message has been sent to us and we will read it as soon as possible.
-</div>
 SUBMITSUMMARY
 
 
 :: submit-casting-call {"position":"3634,825","size":"100,100"}
-<div class="contain">
-
 Thanks, we will get in touch if we have any further questions.
-</div>
 SUBMITSUMMARY
 
 
 :: submit-collaboration {"position":"3519,1053","size":"100,100"}
-<div class="contain">
-
 Thanks, we will get back to you as soon as possible.
-</div>
 SUBMITSUMMARY
 
 
 :: submit-consultancy {"position":"1982,860","size":"100,100"}
-<div class="contain">
-
 Thanks for getting in touch, a member of the team will get back to you as soon as possible.
-</div>
 SUBMITSUMMARY
 
 
 :: submit-crisis-adult {"position":"173,1241","size":"100,100"}
-<div class="contain">
-
 Thank you, a member of the team will get back to you as soon as possible.
-</div>
 SUBMITSUMMARY
 
 
 :: submit-crisis-youth {"position":"34,1232","size":"100,100"}
-<div class="contain">
-
 Thank you, a member of the team will get back to you as soon as possible.
-</div>
 SUBMITSUMMARY
 
 
 :: submit-donation-adult {"position":"1320,913","size":"100,100"}
-<div class="contain">
-
 Thank you, a member of the team will get back to you as soon as possible.
-</div>
 SUBMITSUMMARY
 
 
 :: submit-donation-question {"position":"1092,993","size":"100,100"}
-<div class="contain">
-
 Thank you, a member of the team will get back to you as soon as possible.
-</div>
 SUBMITSUMMARY
 
 
 :: submit-donation-youth {"position":"1202,918","size":"100,100"}
-<div class="contain">
-
 Thank you, a member of the team will get back to you as soon as possible.
-</div>
 SUBMITSUMMARY
 
 
 :: submit-family-general {"position":"777,753","size":"100,100"}
-<div class="contain">
-
 Thank you, a member of the team will get back to you as soon as possible.
 In the meantime, why not check out our resources for families:
-</div>
-
-[REDIRECT]:[Resources for families](https://genderedintelligence.co.uk/families/resources.html)[/REDIRECT]
-
+REDIRECT:[Resources for families](https://genderedintelligence.co.uk/families/resources.html)/REDIRECT
 SUBMITSUMMARY
 
 
 :: submit-family-urgent {"position":"657,752","size":"100,100"}
-<div class="contain">
-
 Thank you, a member of the team will get back to you as soon as possible.
-</div>
 SUBMITSUMMARY
 
 
 :: submit-fundraiser-upcoming {"position":"1389,1035","size":"100,100"}
-<div class="contain">
-
 Thanks again, a member of the team will get back to you as soon as possible.
-</div>
 SUBMITSUMMARY
 
 
 :: submit-fundraising-completed {"position":"1552,1033","size":"100,100"}
-<div class="contain">
-
 Thanks again, a member of the team will get back to you as soon as possible.
-</div>
 SUBMITSUMMARY
 
 
 :: submit-it {"position":"4091,708","size":"100,100"}
-<div class="contain">
-
 Thank you, a member of the team will get back to you as soon as possible.
-</div>
 SUBMITSUMMARY
 
 
 :: submit-media-interview {"position":"3089,901","size":"100,100"}
-<div class="contain">
-
 Thank you, a member of the team will get back to you as soon as possible.
-</div>
 SUBMITSUMMARY
 
 
 :: submit-other {"position":"4376,627","size":"100,100"}
-<div class="contain">
-
 Thank you, your message has been sent to us and we will read it as soon as possible.
-</div>
 SUBMITSUMMARY
 
 
 :: submit-other-adult {"position":"750,1226","size":"100,100"}
-<div class="contain">
-
 Thank you, a member of the team will get back to you as soon as possible.
-</div>
 SUBMITSUMMARY
 
 
 :: submit-other-youth {"position":"600,1226","size":"100,100"}
-<div class="contain">
-
 Thanks for getting in touch, a member of our team will be in touch as soon as possible.
-</div>
 SUBMITSUMMARY
 
 
 :: submit-participate-event {"position":"2937,866","size":"100,100"}
-<div class="contain">
-
 Thank you, a member of the team will get back to you as soon as possible.
-</div>
 SUBMITSUMMARY
 
 
 :: submit-partnership {"position":"3317,1055","size":"100,100"}
-<div class="contain">
-
 Thanks, we will get back to you as soon as possible.
-</div>
 SUBMITSUMMARY
 
 
 :: submit-promotion-request {"position":"3242,770","size":"100,100"}
-<div class="contain">
-
 Thanks, we will get back to you as soon as possible if we have any questions, but please note we get a high volume of these requests and are not able to share everything.
-</div>
 SUBMITSUMMARY
 
 
 :: submit-recruitment {"position":"4254,691","size":"100,100"}
-<div class="contain">
-
 Thank you, your message has been sent to us and we will read it as soon as possible.
-</div>
 SUBMITSUMMARY
 
 
 :: submit-research {"position":"2473,929","size":"100,100"}
-<div class="contain">
-
 Thanks for getting in touch, a member of the team will get back to you if we can help out.
-</div>
 SUBMITSUMMARY
 
 
 :: submit-self-adult {"position":"315,1226","size":"100,100"}
-<div class="contain">
-
 Thank you, a member of the team will get back to you as soon as possible.
-</div>
 SUBMITSUMMARY
 
 
 :: submit-self-youth {"position":"468,1229","size":"100,100"}
-<div class="contain">
-
 Thanks for getting in touch, a member of our team will be in touch as soon as possible.
-</div>
 SUBMITSUMMARY
 
 
 :: submit-speaker {"position":"2684,1064","size":"100,100"}
-<div class="contain">
-
 Thank you, a member of the team will get back to you as soon as possible.
-</div>
 SUBMITSUMMARY
 
 
 :: submit-speaker-school {"position":"2539,1073","size":"100,100"}
-<div class="contain">
-
 Thank you, a member of the team will get back to you as soon as possible.
-</div>
 SUBMITSUMMARY
 
 
 :: submit-support-education {"position":"885,1136","size":"100,100"}
-<div class="contain">
-
 Thank you, a member of the team will get back to you as soon as possible.
-</div>
 SUBMITSUMMARY
 
 
 :: submit-training {"position":"2271,769","size":"100,100"}
-<div class="contain">
-
 Thanks for getting in touch, a member of the team will get back to you as soon as possible.
-</div>
 SUBMITSUMMARY
 
 
 :: submit-unpaid-speaker {"position":"2822,1076","size":"100,100"}
-<div class="contain">
-
 Thank you, a member of the team will get back to you as soon as possible.
-</div>
 SUBMITSUMMARY
 
 
 :: submit-volunteer {"position":"1037,1223","size":"100,100"}
-<div class="contain">
-
 Thank you, a member of the team will get back to you as soon as possible.
-</div>
 SUBMITSUMMARY
 
 
 :: support {"position":"312,286","size":"100,100"}
-[QUESTION]Are you (or the person you're seeking support for) located in the UK?[/QUESTION]
-
+QUESTION:Are you (or the person you're seeking support for) located in the UK?/QUESTION
 [[Yes->support-in-uk]]
 [[No->support-outside-uk]]
 
 
 :: support-crisis {"position":"134,889","size":"100,100"}
-<div class="contain">
-
 Unfortunately our inbox is not manned 24/7 and we are not equipped to respond to emergency requests.
-If you need to speak to someone immediately, please call Childline: 0800 11 11 or Samaritans: 116 123.  
-
+If you need to speak to someone immediately, please call Childline: 0800 11 11 or Samaritans: 116 123.
 Both call lines offer FREE immediate, 24 hour, confidential support and listening from trained workers.
-
 In an emergency, call 999 or make your way to the nearest Accident and Emergency department.
-
 For other immediate support, check out this Support Hub:
-
-[REDIRECT]:[Support hub](http://sabahchoudrey.com/supporthub/)[/REDIRECT]
-
+REDIRECT:[Support hub](http://sabahchoudrey.com/supporthub/)/REDIRECT
 However, we will respond as quickly as we can to urgent support requests. If you wish to send us a message, please continue.
-</div>
-
-[QUESTION]How old are you?[/QUESTION]
-
+QUESTION:How old are you?/QUESTION
 [[Under 30->crisis-youth]]
 [[30 and over->crisis-adult]]
 
 
-:: support-education {"position":"745.6666666666666,906","size":"100,100"}
-<div class="contain">
-
+:: support-education {"position":"745,906","size":"100,100"}
 If you work in education and are interested in supporting your trans and non-binary students, you can get in touch with our education team.
 Please fill in the form below and a member of the team will be in touch with you as soon as we can.
-</div>
-
-[FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
-[FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
-[FORMFIELD]:[Institution]{institution}(text)[/FORMFIELD]
-[FORMFIELD]:[Message]{message_body}(text-long)[/FORMFIELD]
-
-[[!Submit->sendTo:jazz->submit-support-education]]
+FORMFIELD:[Name]{name}(text)/FORMFIELD
+FORMFIELD:[Email]{email_address}(text)/FORMFIELD
+FORMFIELD:[Institution]{institution}(text)/FORMFIELD
+FORMFIELD:[Message]{message_body}(text-long)/FORMFIELD
+[[Submit->!!sendTo:education!!->submit-support-education]]
 
 
 :: support-in-uk {"position":"430,436","size":"100,100"}
-[QUESTION]Is the support for an individual or a family?[/QUESTION]
-
+QUESTION:Is the support for an individual or a family?/QUESTION
 [[Individual->individual-support]]
 [[Family->family-support]]
 
 
 :: support-myself {"position":"232,671","size":"100,100"}
-[QUESTION]Are you currently in a crisis or emergency situation?[/QUESTION]
-
+QUESTION:Are you currently in a crisis or emergency situation?/QUESTION
 [[Yes, I am->support-crisis]]
 [[No, I am not->support-non-emergency]]
 
 
 :: support-non-emergency {"position":"336,906","size":"100,100"}
-[QUESTION]How old are you?[/QUESTION]
+QUESTION:How old are you?/QUESTION
 [[Under 30->support-self-youth]]
 [[30 and over->support-self-adult]]
 
 
 :: support-other {"position":"520,929","size":"100,100"}
-[QUESTION]What is their age?[/QUESTION]
-
+QUESTION:What is their age?/QUESTION
 [[Under 30->support-other-youth]]
 [[30 or over->support-other-adult]]
 
 
 :: support-other-adult {"position":"750,1076","size":"100,100"}
-<div class="contain">
-
 We offer a Support Line for the patients of Nottingham Centre for Transgender Health & Sheffield Porterbrook Clinics.
-[REDIRECT]:[Support Line](https://genderedintelligence.co.uk/projects/supportline.html)[/REDIRECT]
-
+REDIRECT:[Support Line](https://genderedintelligence.co.uk/projects/supportline.html)/REDIRECT
 Please fill in the form below and a member of the team will be in touch with you as soon as we can.
-</div>
-
-[FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
-[FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
-[FORMFIELD]:[Relationship to person concerned]{relationship}(text)[/FORMFIELD]
-[FORMFIELD]:[Message]{message_body}(text-long)[/FORMFIELD]
-
-[[!Submit->sendTo:jazz->submit-other-adult]]
+FORMFIELD:[Name]{name}(text)/FORMFIELD
+FORMFIELD:[Email]{email_address}(text)/FORMFIELD
+FORMFIELD:[Relationship to person concerned]{relationship}(text)/FORMFIELD
+FORMFIELD:[Message]{message_body}(text-long)/FORMFIELD
+[[Submit->!!sendTo:supportLine!!->submit-other-adult]]
 
 
 :: support-other-youth {"position":"598,1076","size":"100,100"}
-<div class="contain">
-
 We offer a number of different services for young people. Find information on them plus resources here:
-[REDIRECT]:[Young people](https://genderedintelligence.co.uk/support/trans-youth.html)[/REDIRECT]
-
+REDIRECT:[Young people](https://genderedintelligence.co.uk/support/trans-youth.html)/REDIRECT
 If you want to get in touch with us about attending a youth group or other support, please fill in the form below and a member of the team will be in touch with you as soon as we can.
-</div>
-
-[FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
-[FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
-[FORMFIELD]:[Relationship to young person]{relationship}(text)[/FORMFIELD]
-[FORMFIELD]:[Area of the country]{area}(text)[/FORMFIELD]
-
+FORMFIELD:[Name]{name}(text)/FORMFIELD
+FORMFIELD:[Email]{email_address}(text)/FORMFIELD
+FORMFIELD:[Relationship to young person]{relationship}(text)/FORMFIELD
+FORMFIELD:[Area of the country]{area}(text)/FORMFIELD
 Are you interested in any of the following: (optional)
-
-[CHECKBOX]:[Group sessions]{youth_group_sessions}[/CHECKBOX]
-[CHECKBOX]:[Residential trips e.g. camping]{youth_group_sessions}[/CHECKBOX]
-[CHECKBOX]:[Mentoring (if in education)]{youth_group_sessions}[/CHECKBOX]
-[CHECKBOX]:[Having a chat with a member of our team]{youth_group_sessions}[/CHECKBOX]
-
-[FORMFIELD]:[Message]{message_body}(text-long)[/FORMFIELD]
-
-[[!Submit->sendTo:jazz->submit-other-youth]]
+CHECKBOX:[Group sessions]{youth_group_sessions}/CHECKBOX
+CHECKBOX:[Residential trips e.g. camping]{youth_group_sessions}/CHECKBOX
+CHECKBOX:[Mentoring (if in education)]{youth_group_sessions}/CHECKBOX
+CHECKBOX:[Having a chat with a member of our team]{youth_group_sessions}/CHECKBOX
+FORMFIELD:[Message]{message_body}(text-long)/FORMFIELD
+[[Submit->!!sendTo:youthWork!!->submit-other-youth]]
 
 
 :: support-outside-uk {"position":"535,318","size":"100,100"}
-<div class="contain">
 
 Unfortunately under UK law we are unable to provide support to people located outside of the UK.
-			 
-If you are being persecuted for your gender or sexuality and you need a lawyer, you may want to contact your local UNHCR office or a local human rights NGO. 
-
-Rainbow Railroad are an organisation based in Canada who can sometimes help people leave their countries if they are being persecuted because of their sexual orientation or gender identity.
-
-[REDIRECT]:[Rainbow Railroad](https://www.rainbowrailroad.org)[/REDIRECT]
-			 
-We are sorry we are not able to help further. 
-			 
+If you are being persecuted for your gender or sexuality and you need a lawyer, you may want to contact your local UNHCR office or a local human rights NGO.
+Rainbow Railroad is an organisation based in Canada who can sometimes help people leave their countries if they are being persecuted because of their sexual orientation or gender identity.
+REDIRECT:[Rainbow Railroad](https://www.rainbowrailroad.org)/REDIRECT
+We are sorry we are not able to help further.
 If you ever find yourself in the UK, please do not hesitate to contact us again.
 
-</div>
 
 :: support-self-adult {"position":"311,1076","size":"100,100"}
-<div class="contain">
-
 We offer a Support Line for the patients of Nottingham Centre for Transgender Health & Sheffield Porterbrook Clinics.
-[REDIRECT]:[Support Line](https://genderedintelligence.co.uk/projects/supportline.html)[/REDIRECT]
-
+REDIRECT:[Support Line](https://genderedintelligence.co.uk/projects/supportline.html)/REDIRECT
 Please fill in the form below and a member of the team will be in touch with you as soon as we can.
-</div>
-
-[FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
-[FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
-[FORMFIELD]:[Message]{message_body}(text-long)[/FORMFIELD]
-
-[[!Submit->sendTo:jazz->submit-self-adult]]
+FORMFIELD:[Name]{name}(text)/FORMFIELD
+FORMFIELD:[Email]{email_address}(text)/FORMFIELD
+FORMFIELD:[Message]{message_body}(text-long)/FORMFIELD
+[[Submit->!!sendTo:supportLine!!->submit-self-adult]]
 
 
 :: support-self-youth {"position":"468,1078","size":"100,100"}
-<div class="contain">
-
 We offer a number of different services for young people. Find information on them plus resources here:
-[REDIRECT]:[Young people](https://genderedintelligence.co.uk/support/trans-youth.html)[/REDIRECT]
-
+REDIRECT:[Young people](https://genderedintelligence.co.uk/support/trans-youth.html)/REDIRECT
 If you want to get in touch with us about attending a youth group or other support, please fill in the form below and a member of the team will be in touch with you as soon as we can.
-</div>
-
-[FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
-[FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
-[FORMFIELD]:[Area of the country]{area}(text)[/FORMFIELD]
-
+FORMFIELD:[Name]{name}(text)/FORMFIELD
+FORMFIELD:[Email]{email_address}(text)/FORMFIELD
+FORMFIELD:[Area of the country]{area}(text)/FORMFIELD
 Are you interested in any of the following: (optional)
-
-[CHECKBOX]:[Group sessions]{youth_group_sessions}[/CHECKBOX]
-[CHECKBOX]:[Residential trips e.g. camping]{residential_group}[/CHECKBOX]
-[CHECKBOX]:[Mentoring (if in education)]{mentoring}[/CHECKBOX]
-[CHECKBOX]:[Having a chat with a member of our team]{chat_with_team}[/CHECKBOX]
-
-[FORMFIELD]:[Message]{message_body}(text-long)[/FORMFIELD]
-
-[[!Submit->sendTo:jazz->submit-self-youth]]
+CHECKBOX:[Group sessions]{youth_group_sessions}/CHECKBOX
+CHECKBOX:[Residential trips e.g. camping]{residential_group}/CHECKBOX
+CHECKBOX:[Mentoring (if in education)]{mentoring}/CHECKBOX
+CHECKBOX:[Having a chat with a member of our team]{chat_with_team}/CHECKBOX
+FORMFIELD:[Message]{message_body}(text-long)/FORMFIELD
+[[Submit->!!sendTo:youthWork!!->submit-self-youth]]
 
 
 :: support-someone-else {"position":"408,756","size":"100,100"}
-[QUESTION]What is your relationship to the individual?[/QUESTION]
-
+QUESTION:What is your relationship to the individual?/QUESTION
 [[Family, partner, friend or other personal relation->support-other]]
 [[They are a patient, service user, coworker or other professional relation->support-other]]
 [[Teacher, mentor or education->support-education]]
 
 
 :: training {"position":"2292,601","size":"100,100"}
-<div class="contain">
-
 We offer individual training and workplace training, check out the links below for full details before making an enquiry.
-[REDIRECT]:[Individual training](https://genderedintelligence.co.uk/professionals/cpd.html)[/REDIRECT]
-</div>
-
-[REDIRECT]:[Workplace training](https://genderedintelligence.co.uk/professionals/training.html)[/REDIRECT]
-
+REDIRECT:[Individual training](https://genderedintelligence.co.uk/professionals/cpd.html)/REDIRECT
+REDIRECT:[Workplace training](https://genderedintelligence.co.uk/professionals/training.html)/REDIRECT
 Please fill in the contact form below and a member of our team will get back to you as soon as possible.
-
-[FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
-[FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
-[FORMFIELD]:[Message]{message_body}(text-long)[/FORMFIELD]
-
-[[!Submit->sendTo:jazz->submit-training]]
+FORMFIELD:[Name]{name}(text)/FORMFIELD
+FORMFIELD:[Email]{email_address}(text)/FORMFIELD
+FORMFIELD:[Message]{message_body}(text-long)/FORMFIELD
+[[Submit->!!sendTo:professionalServices!!->submit-training]]
 
 
 :: unpaid-speaker {"position":"2797,888","size":"100,100"}
-<div class="contain">
-
 Please fill in the form below and we will be in contact with you. Note that we can only take part in unpaid events and projects if we have capacity or it is mutually beneficial.
-</div>
-[FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
-[FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
-[FORMFIELD]:[When]{timescale}(text)[/FORMFIELD]
-[FORMFIELD]:[Organisation name]{institution_name}(text)[/FORMFIELD]
-[FORMFIELD]:[Message]{message_body}(text-long)[/FORMFIELD]
-
-[[!Submit->sendTo:jazz->submit-unpaid-speaker]]
+FORMFIELD:[Name]{name}(text)/FORMFIELD
+FORMFIELD:[Email]{email_address}(text)/FORMFIELD
+FORMFIELD:[When]{timescale}(text)/FORMFIELD
+FORMFIELD:[Organisation name]{institution_name}(text)/FORMFIELD
+FORMFIELD:[Message]{message_body}(text-long)/FORMFIELD
+[[Submit->!!sendTo:publicEngagement!!->submit-unpaid-speaker]]
 
 
 :: volunteer {"position":"894,449","size":"100,100"}
-[QUESTION]Which of these best fits your enquiry?[/QUESTION]
-
+QUESTION:Which of these best fits your enquiry?/QUESTION
 [[Apply to volunteer->volunteer-apply]]
 [[Ask a question about volunteering->volunteer-question]]
 
 
 :: volunteer-apply {"position":"884,693","size":"100,100"}
-<div class="contain">
-
 Please read our full volunteering information here:
-[REDIRECT]:[Volunteering](https://genderedintelligence.co.uk/support-us/volunteer.html)[/REDIRECT]
-
-[REDIRECT]:[Application form](https://genderedintelligence.co.uk/support-us/volunteer/form.html)[/REDIRECT]
-
+REDIRECT:[Volunteering](https://genderedintelligence.co.uk/support-us/volunteer.html)/REDIRECT
+REDIRECT:[Application form](https://genderedintelligence.co.uk/support-us/volunteer/form.html)/REDIRECT
 Did you still have a question for us?
-</div>
-
 [[Yes->volunteer-question]] 
 
 
 :: volunteer-question {"position":"943,979","size":"100,100"}
-<div class="contain">
-
-If you have applied to volunteer with us already, please be aware that we have limited capacity to respond to volunteer applications.
-
-If 4 weeks has not passed yet, please wait before getting in touch with us, unless you have something to add or a specific question.
-
+If you have applied to volunteer with us already, please be aware that we have limited capacity to respond to volunteer applications. If 4 weeks have not passed yet, please wait before getting in touch with us, unless you have something to add or a specific question.
 If we have not replied after 4 weeks or if you have a question about volunteering, please fill in the form below and we will be in touch.
-</div>
-
-[FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
-[FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
-[FORMFIELD]:[Have you already applied to volunteer with us?]{volunteer_applied}(text-long)[/FORMFIELD]
-[FORMFIELD]:[Message]{message_body}(text-long)[/FORMFIELD]
-
-[[!Submit->sendTo:jazz->submit-volunteer]]
+FORMFIELD:[Name]{name}(text)/FORMFIELD
+FORMFIELD:[Email]{email_address}(text)/FORMFIELD
+FORMFIELD:[Have you already applied to volunteer with us?]{volunteer_applied}(text-long)/FORMFIELD
+FORMFIELD:[Message]{message_body}(text-long)/FORMFIELD
+[[Submit->!!sendTo:volunteering!!->submit-volunteer]]
 
 
 :: youth-group-info {"position":"1634,1458","size":"100,100"}
-<div class="contain">
-
 Check out the following page for information on our youth groups:
-[REDIRECT]:[Youth groups](https://genderedintelligence.co.uk/trans-youth/youth-group.html)[/REDIRECT]
-</div>
-
-[QUESTION]Are you (or someone you know) interested in attending a youth group?[/QUESTION]
-
+REDIRECT:[Youth groups](https://genderedintelligence.co.uk/trans-youth/youth-group.html)/REDIRECT
+QUESTION:Are you (or someone you know) interested in attending a youth group?/QUESTION
 [[I want to attend a youth group->support-self-youth]]
 [[I want to enquire about a youth group for someone else->support-other-youth]]
 [[I work in a school and want to know about support for students->support-education]]
 
 
 :: StoryScript [script]
+window.config.postURL = "https://fervent-colden-5f0cd2.netlify.app/.netlify/functions/enquiryWitch";
 
-			window.preview = true;
-			window.config.postURL = "https://awesome-noether-adb80b.netlify.app/.netlify/functions/enquiryWitch";
-			
+window.config.enablePreview = false;
+window.config.allowUploads = false;
+window.config.overrideSpamFilters = false;
+
+window.config.enableCaptcha = true;
+window.config.captchaURL = "https://fervent-colden-5f0cd2.netlify.app/.netlify/functions/verifyToken";
+window.config.captchaKey = "b6053eb1-7afe-4425-a853-66a52cffcca3";
+
+window.story.ignoreErrors = false;
