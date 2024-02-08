@@ -686,9 +686,9 @@ Please fill in the form below and a member of the team will be in touch with you
 
 
 :: support-other-adult {"position":"750,1076","size":"100,100"}
-We offer a Support Line for the patients of Nottingham Centre for Transgender Health & Sheffield Porterbrook Clinics.
-[REDIRECT]:[Support Line](https://genderedintelligence.co.uk/projects/supportline.html)[/REDIRECT]
-Please fill in the form below and a member of the team will be in touch with you as soon as we can.
+Direct support for those 18+ through email, WhatsApp, or phone, for people waiting for gender-affirmative healthcare.
+Find out more about the [REDIRECT]:[Support Line](https://genderedintelligence.co.uk/services/66)[/REDIRECT]
+Please fill in the form below and a member of the team will be in touch with you soon.
 [FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
 [FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
 [FORMFIELD]:[Relationship to person concerned]{relationship}(text)[/FORMFIELD]
@@ -724,9 +724,9 @@ If you ever find yourself in the UK, please do not hesitate to contact us again.
 
 
 :: support-self-adult {"position":"311,1076","size":"100,100"}
-We offer a Support Line for the patients of Nottingham Centre for Transgender Health & Sheffield Porterbrook Clinics.
-[REDIRECT]:[Support Line](https://genderedintelligence.co.uk/projects/supportline.html)[/REDIRECT]
-Please fill in the form below and a member of the team will be in touch with you as soon as we can.
+Direct support for those 18+ through email, WhatsApp, or phone, for people waiting for gender-affirmative healthcare.
+Find out more about the [REDIRECT]:[Support Line](https://genderedintelligence.co.uk/services/66)[/REDIRECT]
+Please fill in the form below and a member of the team will be in touch with you soon.
 [FORMFIELD]:[Name]{name}(text)[/FORMFIELD]
 [FORMFIELD]:[Email]{email_address}(text)[/FORMFIELD]
 [FORMFIELD]:[Message]{message_body}(text-long)[/FORMFIELD]
